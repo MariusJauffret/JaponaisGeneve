@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Cours de japonais à Genève</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            font-weight: bold;
+        } */
+        
+        /* tr:hover {
+            background-color: #f5f5f5;
+        } */
+        
+        /* You can customize these styles as needed */
+        /* Uncomment and modify these styles if you want:
+
+        .highlight {
+            background-color: #ffffcc;
+        }
+        
+        @media (max-width: 600px) {
+            table {
+                font-size: 14px;
+            }
+            th, td {
+                padding: 8px;
+            }
+        }
+        */
+    </style>
+</head>
+<body>
+
+    <!-- mobile menu -->
+    <div class="mobile-nav-toggle">
+        <span class="current-section-selector">></span>
+        <span id="current-section-id">None</span>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <nav class="desktop-nav">
+        <a href="#landingpage" class="landingpage nav-link active">
+            <div class="nav-item">
+                <h3 class="nav-item-main-title">Home</h3>
+                <h3 class="nav-item-sub-title">家</h3>
+
+            </div>
+        </a>
+
+        <a href="#cours" class="cours nav-link">
+            <div class="nav-item">
+                <h3 class="nav-item-main-title">Cours</h3>
+                <h3 class="nav-item-sub-title">レッスン</h3>
+            </div>
+        </a>
+
+        <a href="#tarifs" class="tarifs nav-link">
+            <div class="nav-item">
+                <h3 class="nav-item-main-title">Tarifs</h3>
+                <h3 class="nav-item-sub-title">価格</h3>
+            </div>
+        </a>
+
+        <a href="#parcours" class="parcours nav-link">
+            <div class="nav-item">
+                <h3 class="nav-item-main-title">Parcours</h3>
+                <h3 class="nav-item-sub-title">きゃりあ</h3>
+            </div>
+        </a>
+        
+        <a href="#partenaires" class="partenaires nav-link">
+            <div class="nav-item">
+                <h3 class="nav-item-main-title">Partenaires</h3>
+                <h3 class="nav-item-sub-title">レビュー</h3>
+            </div>
+        </a>
+
+        <a href="#avis" class="avis nav-link">
+            <div class="nav-item">
+                <h3 class="nav-item-main-title">Avis</h3>
+                <h3 class="nav-item-sub-title">レビュー</h3>
+            </div>
+        </a>
+
+        <a href="#contact" class="contact nav-link">
+            <div class="nav-item">
+                <h3 class="nav-item-main-title">Contact</h3>
+                <h3 class="nav-item-sub-title">接触</h3>
+            </div>
+        </a>
+    </nav>
+
+    <!-- Add this mobile navigation menu after your existing nav -->
+    <nav class="mobile-nav">
+        <div class="mobile-nav-container">
+            <a href="#landingpage" class="landingpage nav-link mobile-nav-link">
+                <div class="nav-item">
+                    <h3 class="nav-item-main-title">Home</h3>
+                    <h3 class="nav-item-sub-title">家</h3>
+                </div>
+            </a>
+
+            <a href="#cours" class="cours nav-link mobile-nav-link">
+                <div class="nav-item">
+                    <h3 class="nav-item-main-title">Cours</h3>
+                    <h3 class="nav-item-sub-title">レッスン</h3>
+                </div>
+            </a>
+
+            <a href="#tarifs" class="tarifs nav-link mobile-nav-link">
+                <div class="nav-item">
+                    <h3 class="nav-item-main-title">Tarifs</h3>
+                    <h3 class="nav-item-sub-title">価格</h3>
+                </div>
+            </a>
+            
+            <a href="#partenaires" class="partenaires nav-link mobile-nav-link">
+                <div class="nav-item">
+                    <h3 class="nav-item-main-title">Partenaires</h3>
+                    <h3 class="nav-item-sub-title">きゃりあ</h3>
+                </div>
+            </a>
+
+            <a href="#avis" class="avis nav-link mobile-nav-link">
+                <div class="nav-item">
+                    <h3 class="nav-item-main-title">Avis</h3>
+                    <h3 class="nav-item-sub-title">レビュー</h3>
+                </div>
+            </a>
+
+            <a href="#parcours" class="parcours nav-link mobile-nav-link">
+                <div class="nav-item">
+                    <h3 class="nav-item-main-title">Parcours</h3>
+                    <h3 class="nav-item-sub-title">きゃりあ</h3>
+                </div>
+            </a>
+
+            <a href="#contact" class="contact nav-link mobile-nav-link">
+                <div class="nav-item">
+                    <h3 class="nav-item-main-title">Contact</h3>
+                    <h3 class="nav-item-sub-title">接触</h3>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="landingpage" class="scene">
+            <div class="landingpage-bg">
+            </div>
+            <article class="article hook-article">
+                <div class="article-top">
+                    <div class="etiquette">
+                        <img src="img/10914112.webp" alt="Italian Trulli" class="article-picture">
+                        <span class="article-content">Mickael Pellet</span>
+                        <div class="etiquette-info">
+                            <div class="etiquette-info-left">
+                                <img src="img/icons/certificate-check-svgrepo-com.svg" alt="Italian Trulli">
+                                <img src="img/icons/money-cash-svgrepo-com.svg" alt="Italian Trulli">
+                                <img src="img/icons/language-svgrepo-com (1).svg" alt="Italian Trulli">
+                            </div>
+                            <div class="etiquette-info-left">
+                                <span class="article-content bold">Certification</span>
+                                <span class="article-content bold">Tarifs</span>
+                                <span class="article-content bold">Langue</span>
+                            </div>
+                            <div class="etiquette-info-left">
+                                <span class="article-content">JLPT N2</span>
+                                <span class="article-content">40</span>
+                                <span class="article-content">Français</span>
+                            </div>
+                        </div>
+                        <div class="etiquette-info-mobile-addition">
+                            <div class="etiquette-info-left">
+                                <img src="img/icons/email-1-svgrepo-com.svg" alt="Italian Trulli">
+                                <img src="img/icons/phone-svgrepo-com.svg" alt="Italian Trulli">
+                            </div>
+                            <div class="etiquette-info-left">
+                                <span class="article-content bold">mick.pellet@gmail.com</span>
+                                <span class="article-content bold" style="height: 100%; line-height: 28px;">+41 79 431 75 42</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-headers">
+                        <h1 class="article-maintitle hook">Cours de japonais à Genève, à domicile ou en ligne</h1>
+                        <h2 class="article-subtitle">ジュネーブで今すぐ日本語プライベートレッスンを始めましょう！</h2>
+                        <span class="article-date" class="date">12/08/2024</span>
+                        <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
+                            Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                            
+                            Professeur de japonais depuis 3 ans et ayant vécu à Tokyo pendant plus de 2 ans, la langue japonaise et sa culture sont mes passions. Mon but est de partager ça avec un maximum de gens tout en les accompagnant dans cette fantastique aventure qu'est l'apprentissage du japonais
+                            </p>
+                    </div>            
+                </div>
+            </article>
+            <a href="#contact" class="button-contact">
+                <div class="button">
+                    <h3>Prendre rendez-vous</h3>
+                </div>
+            </a>
+            <div class="landing-footer">
+                <p class="article-content">Email: mick.pellet@gmail.com - Téléphone: +41 79 431 75 42 - Tarifs: 40.- CHF/H Flexible</p>
+            </div>
+        </section>
+        <section id="cours" class="scene">
+            <div class="cours-container">
+
+                </article> 
+                <article class="article article-cours cours-item2">
+                    <div class="article-headers">
+                        <h1 class="article-maintitle cours-maintitle">Contenu</h1>
+                        <h1 class="article-subtitle cours-subtitle">コンテンツ</h1>
+                        
+                        <p class="article-content">
+                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                        </p>
+                    </div>
+                </article>
+                <article class="article article-cours cours-item3">
+                    <div class="article-headers">
+                        <h1 class="article-maintitle cours-maintitle">Méthodologie</h1>
+                        <h1 class="article-subtitle cours-subtitle">方法論</h1>
+                        
+                        <p class="article-content">
+                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                        </p>
+                    </div>
+                </article>
+                <article class="article article-cours cours-item4">
+                    <div class="article-headers">
+                        <h1 class="article-maintitle cours-maintitle">Objectifs</h1>
+                        <h1 class="article-subtitle cours-subtitle">目標</h1>
+                        <p class="article-content">
+                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                        </p>
+                    </div>
+                </article>
+                <article class="article article-cours cours-item5">
+                    <div class="article-headers">
+                        <h1 class="article-maintitle cours-maintitle">Lieux</h1>
+                        <h1 class="article-subtitle cours-subtitle">場所</h1>
+                        <p class="article-content">
+                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section id="tarifs" class="scene">
+            <div class="tarifs-container">
+                <!-- <article class="article std-article article-cours cours-item1">
+                    <div class="article-headers">
+                        <h1 class="article-maintitle cours-maintitle">Cours</h1>
+                        <h1 class="article-subtitle cours-subtitle">レッスン</h1>
+                    </div>
+                    <p class="article-content">
+                        Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                    </p>
+                    
+                    <div class="article-tags">
+                        <div class="article-tag"><span>Destiné à tous niveaux</span></div>
+                        <div class="article-tag"><span>Cours en Français</span></div>
+                    </div>
+                </article>--> 
+                <article class="article article-tarifs">
+                    <div class="article-headers-dark">
+                        <h1 class="article-maintitle tarifs-maintitle">Tarifs & Recommandations</h1>
+                        <h1 class="article-subtitle cours-subtitle">コンテンツ</h1>
+                        
+                        <p class="article-content">
+                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                        </p>
+                    </div>
+                    <!--
+                    <div class="article-tags">
+                        <div class="article-tag-secondary"><span>Expression orale</span></div>
+                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
+                    </div>-->
+                </article>
+                <!-- <div>
+                    <table
+                        style='
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        position: relative;
+                        font-family: "Urbanist", sans-serif;
+                        font-optical-sizing: auto;
+                        font-weight: 300;
+                        font-style: normal;
+                        '
+                    >
+                        <thead>
+                            <tr>
+                                <th>Tarif</th>
+                                <th>Tarifs packs</th>
+                                <th>Webcam</th>
+                                <th>Déplacements</th>
+                                <th>Cours offerts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>40CHF</td>
+                                <td>
+                                    5 h: 200CHF<br>
+                                    10 h: 400CHF
+                                </td>
+                                <td>35CHF/h</td>
+                                <td>+ 5CHF</td>
+                                <td>1h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> -->
+                <article class="article article-tarifs">
+                    <div class="article-headers-dark">
+                        <h1 class="article-maintitle tarifs-maintitle">Horaires</h1>
+                        <h1 class="article-subtitle cours-subtitle">方法論</h1>
+                        
+                        <p class="article-content">
+                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                        </p>
+                    </div>
+                    <!--
+                    <div class="article-tags">
+                        <div class="article-tag-secondary"><span>Expression orale</span></div>
+                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
+                    </div>-->
+                </article>
+            </div>
+        </section>
+        <section id="partenaires" class="scene">
+            <article class="article partenaires-article">
+                <div class="article-top">
+                    <div class="article-headers">
+                        <div class="partenaires-banner igikai"></div>
+                        <h1 class="article-maintitle hook">IKIGAI Manga Shop</h1>
+                        <h2 class="article-subtitle">ジュネーブで今すぐ日本語プライベートレッスンを始めましょう！</h2>
+                        <span class="article-date" class="date">12/08/2024</span>
+                        <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
+                            Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                            
+                            Professeur de japonais depuis 3 ans et ayant vécu à Tokyo pendant plus de 2 ans, la langue japonaise et sa culture sont mes passions. Mon but est de partager ça avec un maximum de gens tout en les accompagnant dans cette fantastique aventure qu'est l'apprentissage du japonais
+                            </p>
+                    </div>
+                    <div class="article-headers">
+                        <div class="partenaires-banner arcade"></div>
+                        <h1 class="article-maintitle hook">L'arcade des enfants terribles</h1>
+                        <h2 class="article-subtitle">ジュネーブで今すぐ日本語プライベートレッスンを始めましょう！</h2>
+                        <span class="article-date" class="date">12/08/2024</span>
+                        <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
+                            Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                            
+                            Professeur de japonais depuis 3 ans et ayant vécu à Tokyo pendant plus de 2 ans, la langue japonaise et sa culture sont mes passions. Mon but est de partager ça avec un maximum de gens tout en les accompagnant dans cette fantastique aventure qu'est l'apprentissage du japonais
+                            </p>
+                    </div>
+                    <div class="article-headers">
+                        <div class="partenaires-banner superprof"></div>
+                        <h1 class="article-maintitle hook">Superprof</h1>
+                        <h2 class="article-subtitle">ジュネーブで今すぐ日本語プライベートレッスンを始めましょう！</h2>
+                        <span class="article-date" class="date">12/08/2024</span>
+                        <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
+                            Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                            
+                            Professeur de japonais depuis 3 ans et ayant vécu à Tokyo pendant plus de 2 ans, la langue japonaise et sa culture sont mes passions. Mon but est de partager ça avec un maximum de gens tout en les accompagnant dans cette fantastique aventure qu'est l'apprentissage du japonais
+                            </p>
+                    </div>            
+                </div>
+            </article>
+        </section>
+        <section id="avis" class="scene">
+            <div class="avis-container">
+                <!-- <article class="article std-article article-cours cours-item1">
+                    <div class="article-headers">
+                        <h1 class="article-maintitle cours-maintitle">Cours</h1>
+                        <h1 class="article-subtitle cours-subtitle">レッスン</h1>
+                    </div>
+                    <p class="article-content">
+                        Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                    </p>
+                    
+                    <div class="article-tags">
+                        <div class="article-tag"><span>Destiné à tous niveaux</span></div>
+                        <div class="article-tag"><span>Cours en Français</span></div>
+                    </div>
+                </article>--> 
+                <article class="article article-tarifs">
+                    <div class="article-headers-dark">
+                        <h1 class="article-maintitle tarifs-maintitle">Sabina</h1>
+                        <h1 class="article-subtitle tarifs-subtitle">5<span style="color: rgb(255, 242, 66);">★</span> Superprof</h1>
+                        
+                        <p class="article-content">
+                            Parfait ! Mickael est un excellent prof, mon fils a beaucoup progressé et reste très motivé à l’idée de continuer. Il est patient, intéressant et s’adapte au niveau de l’élève. Nous sommes entièrement satisfait ! Merci à lui
+                        </p>
+                    </div>
+                    <!--
+                    <div class="article-tags">
+                        <div class="article-tag-secondary"><span>Expression orale</span></div>
+                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
+                    </div>-->
+                </article>
+                <article class="article article-tarifs">
+                    <div class="article-headers-dark">
+                        <h1 class="article-maintitle tarifs-maintitle">Laeticia</h1>
+                        <h1 class="article-subtitle tarifs-subtitle"><img src="img/icons/hand-thumbs-up-fill-svgrepo-com.svg" style="width: 20px;"> Recommandé Superprof</h1>
+                        
+                        <p class="article-content">
+                            Mickael est un très bon prof de japonais, passionné par le Japon et sa culture! Je vous le recommande à 100% que vous débutiez ou non!
+                        </p>
+                    </div>
+                    <!--
+                    <div class="article-tags">
+                        <div class="article-tag-secondary"><span>Expression orale</span></div>
+                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
+                    </div>-->
+                </article>
+                <article class="article article-tarifs">
+                    <div class="article-headers-dark">
+                        <h1 class="article-maintitle tarifs-maintitle">Lionel</h1>
+                        <h1 class="article-subtitle tarifs-subtitle"><img src="img/icons/hand-thumbs-up-fill-svgrepo-com.svg" style="width: 20px;"> Recommandé Superprof</h1>
+                        
+                        <p class="article-content">
+                            J'avais commencé à apprendre le japonais par simple curiosité, mais grâce à Mickael ça me donne vraiment envie de voyager jusqu'au Japon! Super prof vraiment à l'écoute et qui sait s'adapter aux élèves!
+                        </p>
+                    </div>
+                    <!--
+                    <div class="article-tags">
+                        <div class="article-tag-secondary"><span>Expression orale</span></div>
+                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
+                    </div>-->
+                </article>
+                <article class="article article-tarifs">
+                    <div class="article-headers-dark">
+                        <h1 class="article-maintitle tarifs-maintitle">Michèle</h1>
+                        <h1 class="article-subtitle tarifs-subtitle"><img src="img/icons/hand-thumbs-up-fill-svgrepo-com.svg" style="width: 20px;"> Recommandé Superprof</h1>
+                        
+                        <p class="article-content">
+                            Mickael est un jeune homme passionnè qui aime apprendre aux autres et transmette son savoir !! Merci
+                        </p>
+                        </div>
+                    <!--
+                    <div class="article-tags">
+                        <div class="article-tag-secondary"><span>Expression orale</span></div>
+                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
+                    </div>-->
+                </article>
+                <!-- <article class="article article-tarifs">
+                    <div class="article-headers-dark">
+                        <h1 class="article-maintitle tarifs-maintitle">Layla</h1>
+                        <h1 class="article-subtitle tarifs-subtitle">Recommandé sur Superprof</h1>
+                        
+                        <p class="article-content">
+                            Mickael est un prof sérieux et sympathique! On sent qu'il est passionné par le japonais et le Japon de manière générale. Je le recommande vivement!
+                        </p>
+                        </div>
+                    <div class="article-tags">
+                        <div class="article-tag-secondary"><span>Expression orale</span></div>
+                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
+                    </div>
+                </article> -->
+            </div>
+        </section>
+        <section id="parcours" class="scene">
+            <article class="article parcours-article">
+                <div class="article-top">
+                    <div class="etiquette-parcours">
+                        <img src="img/mikjap1.jpg" alt="Italian Trulli" class="parcours-picture">
+                        <!-- <span class="article-content">Mickael Pellet</span>
+                        <div class="etiquette-info">
+                            <div class="etiquette-info-left">
+                                <img src="img/icons/certificate-check-svgrepo-com.svg" alt="Italian Trulli">
+                                <img src="img/icons/money-cash-svgrepo-com.svg" alt="Italian Trulli">
+                                <img src="img/icons/language-svgrepo-com (1).svg" alt="Italian Trulli">
+                            </div>
+                            <div class="etiquette-info-left">
+                                <span class="article-content bold">Certification</span>
+                                <span class="article-content bold">Tarifs</span>
+                                <span class="article-content bold">Langue</span>
+                            </div>
+                            <div class="etiquette-info-left">
+                                <span class="article-content">JLPT N2</span>
+                                <span class="article-content">40</span>
+                                <span class="article-content">Français</span>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="article-headers article-only">
+                        <h1 class="article-maintitle hook">Mon parcours</h1>
+                        <h2 class="article-subtitle">ジュネーブで今すぐ日本語プライベートレッスンを始めましょう！</h2>
+                        <span class="article-date" class="date">12/08/2024</span>
+                        <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
+                            Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                            
+                            Professeur de japonais depuis 3 ans et ayant vécu à Tokyo pendant plus de 2 ans, la langue japonaise et sa culture sont mes passions. Mon but est de partager ça avec un maximum de gens tout en les accompagnant dans cette fantastique aventure qu'est l'apprentissage du japonais
+                            </p>
+                    </div>            
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script>
+        const sections = document.querySelectorAll("section");
+        const navLi = document.querySelectorAll(".nav-link");
+        const currentSectionSpan = document.getElementById("current-section-id");
+        window.onscroll = () => {
+            var current = "";
+
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                console.log(pageYOffset)
+                if (pageYOffset >= sectionTop - 100) {
+                current = section.getAttribute("id");
+                }
+            });
+
+            currentSectionSpan.textContent = current || "None";
+
+            console.log(current);
+
+            navLi.forEach((li) => {
+                li.classList.remove("active");
+                if (li.classList.contains(current)) {
+                li.classList.add("active");
+                }
+            });
+        };
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const mobileNavToggle = document.querySelector('.hamburger');
+        const mobileNav = document.querySelector('.mobile-nav');
+        const mobileNavT = document.querySelector('.mobile-nav-toggle');
+        console.log(mobileNavT);
+        const hamburger = document.querySelector('.hamburger');
+        const body = document.body;
+        
+        // Create overlay element
+        const menuOverlay = document.createElement('div');
+        menuOverlay.className = 'menu-overlay';
+        body.appendChild(menuOverlay);
+        
+        // Toggle mobile menu
+        mobileNavToggle.addEventListener('click', function() {
+            mobileNav.classList.toggle('active');
+            hamburger.classList.toggle('active');
+            mobileNavT.classList.toggle('menu-active');
+            menuOverlay.classList.toggle('active');
+            body.classList.toggle('no-scroll');
+        });
+        
+        // Close menu when clicking overlay
+        menuOverlay.addEventListener('click', function() {
+            mobileNav.classList.remove('active');
+            hamburger.classList.remove('active');
+            mobileNavT.classList.remove('menu-active');
+            menuOverlay.classList.remove('active');
+            body.classList.remove('no-scroll');
+        });
+        
+        // Close menu when clicking a link
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileNav.classList.remove('active');
+                hamburger.classList.remove('active');
+                mobileNavT.classList.remove('menu-active');
+                menuOverlay.classList.remove('active');
+                body.classList.remove('no-scroll');
+            });
+        });
+        
+        // Update mobile nav active states
+        function updateMobileNavActiveState() {
+            var current = "";
+            
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute("id");
+                }
+            });
+            
+            mobileNavLinks.forEach((link) => {
+                link.classList.remove("active");
+                if (link.classList.contains(current)) {
+                    link.classList.add("active");
+                }
+            });
+        }
+        
+        // Update both desktop and mobile nav on scroll
+        const originalScrollHandler = window.onscroll;
+        window.onscroll = () => {
+            // Call the original scroll handler
+            if (originalScrollHandler) {
+                originalScrollHandler();
+            }
+            
+            // Also update mobile nav
+            updateMobileNavActiveState();
+        };
+    });
+    </script>
+</body>
+</html>
