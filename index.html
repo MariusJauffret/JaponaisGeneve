@@ -18,7 +18,7 @@
     <!-- mobile menu -->
     <div class="mobile-nav-toggle">
         <!-- <span class="current-section-selector">></span> -->
-        <span id="current-section-id">Acceuil - ホーム</span>
+        <img id="current-section-icon" src="img/icons/arrow-circle-right-svgrepo-com.svg"> <span id="current-section-id">Acceuil  ホーム</span>
         <div class="hamburger">
             <span></span>
             <span></span>
@@ -144,7 +144,7 @@
                         <div class="etiquette-info">
                             <div class="etiquette-info-left" style="height: 100%;justify-content: space-evenly;">
                                 <img src="img/icons/certificate-check-svgrepo-com.svg" alt="Italian Trulli">
-                                <img src="img/icons/money-check-dollar-svgrepo-com.svg" alt="Italian Trulli">
+                                <!-- <img src="img/icons/money-check-dollar-svgrepo-com.svg" alt="Italian Trulli"> -->
                                 <img src="img/icons/letter-chinese-a-svgrepo-com.svg" alt="Italian Trulli">
                                 <img src="img/icons/mail-svgrepo-com.svg" alt="Italian Trulli">
                                 <img src="img/icons/mobile-alt-2-svgrepo-com.svg" alt="Italian Trulli">
@@ -158,7 +158,7 @@
                             </div> -->
                             <div class="etiquette-info-left">
                                 <span class="article-content">JLPT N2</span>
-                                <span class="article-content">40 CHF.- / h</span>
+                                <!-- <span class="article-content">40 à 50 CHF.- / h</span> -->
                                 <span class="article-content">FR | ANG</span>
                                 <span class="article-content">mick.pellet@gmail.com</span>
                                 <span class="article-content">+41 79 431 75 42</span>
@@ -166,9 +166,38 @@
                         </div>
                     </div>
                     <div class="article-headers hook-item2">
-                        <h1 class="article-maintitle hook">Cours de japonais à Genève — en groupe ou en privé, à domicile ou en ligne.</h1>
-                        <h2 class="article-subtitle">Premier cours d’essai gratuit ! </h2>
-                        <h2 class="article-subtitle">ジュネーブの日本語コース - グループまたはプライベート、自宅またはオンラインで。</h2>
+                        <h1 class="article-maintitle acceuil-maintitle hook">Cours de japonais à Genève — en groupe ou en privé, à domicile ou en ligne.</h1>
+                        <a href="#contact" style="text-decoration: none;">
+                            <h1 class="article-subtitle title-button">Premier cours d’essai gratuit <img src="img/icons/external-link-svgrepo-com.svg" style="width: 12px;"></h1>
+                        </a>
+                        <div class="etiquette etiquette-mobile hook-mobile">
+                            <img src="img/10914112.webp" alt="Italian Trulli" class="article-picture">
+                             <span class="article-subtitle">Mickael Pellet</span>
+                            <div class="etiquette-info">
+                                <div class="etiquette-info-left" style="height: 100%;justify-content: space-evenly;">
+                                    <img src="img/icons/certificate-check-svgrepo-com.svg" alt="Italian Trulli">
+                                    <!-- <img src="img/icons/money-check-dollar-svgrepo-com.svg" alt="Italian Trulli"> -->
+                                    <img src="img/icons/letter-chinese-a-svgrepo-com.svg" alt="Italian Trulli">
+                                    <img src="img/icons/mail-svgrepo-com.svg" alt="Italian Trulli">
+                                    <img src="img/icons/mobile-alt-2-svgrepo-com.svg" alt="Italian Trulli">
+                                </div>
+                                <!-- <div class="etiquette-info-left">
+                                    <span class="article-content">Certification</span>
+                                    <span class="article-content">Tarifs</span>
+                                    <span class="article-content">Langue</span>
+                                    <span class="article-content">Email</span>
+                                    <span class="article-content" style="height: 100%; line-height: 28px;">Telephone</span>
+                                </div> -->
+                                <div class="etiquette-info-left">
+                                    <span class="article-content">JLPT N2</span>
+                                    <!-- <span class="article-content">40 à 50 CHF.- / h</span> -->
+                                    <span class="article-content">FR | ANG</span>
+                                    <span class="article-content">mick.pellet@gmail.com</span>
+                                    <span class="article-content">+41 79 431 75 42</span>
+                                </div>
+                        </div>
+                    </div>
+                        <!-- <h2 class="article-subtitle">ジュネーブの日本語コース - グループまたはプライベート、自宅またはオンラインで。</h2> -->
                         <span class="article-date" class="date">12/08/2024</span>
                         <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
                             Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
@@ -216,17 +245,99 @@
                         <h1 class="article-subtitle cours-subtitle">教材</h1>
                         
                         <p class="article-content">
-                            J'utilise la méthode Minna no Nihongo, une référence reconnue et largement utilisée pour l'apprentissage du japonais. 
+                            J'utilise la méthode Minna no Nihongo, une référence reconnue et largement utilisée pour l'apprentissage du japonais.
+                        </p>
+                        <p class="article-content">
+                            Chaque cours dure 1 heure et est divisé en plusieurs parties complémentaires pour favoriser un apprentissage complet de la langue :
+                        </p>
+                        <style>
+                        /* -----  FLEXBOX “TABLE”  ----- */
+                        .lesson-points{
+                        padding-top: 15px;
+                        display:flex;               /* outer grid */
+                        flex-direction:column;      /* 5 rows */
+                        gap:1rem;                   /* space between rows */
+                        max-width:700px;            /* optional: limit total width */
+                        margin:0 auto;              /* center on page */
+                        font-family:system-ui, sans-serif;
+                        }
 
-Chaque cours dure 1 heure et est divisé en plusieurs parties complémentaires pour favoriser un apprentissage complet de la langue :
+                        .point-row{
+                        display:flex;               /* 2 columns */
+                        align-items:flex-start;     /* icons and text align at the top */
+                        }
 
-                        <ul>
-                            <li class="article-content">Lecture : entraînement à la lecture des hiragana, katakana et kanji.</li>
-                            <li class="article-content">Écriture : exercices pour améliorer la maîtrise des caractères japonais.</li>
-                            <li class="article-content">Compréhension orale : écoute d'extraits audio pour s'habituer aux sons et à la structure de la langue.</li>
-                            <li class="article-content">Vocabulaire : acquisition de mots et expressions utiles dans des contextes variés.</li>
-                            <li class="article-content">Grammaire : explication et mise en pratique des points grammaticaux abordés dans la leçon.</li>
-                        </ul>
+                        .icon{
+                        
+                        margin-inline-end:12px;     /* gap between icon & text */
+                        }
+
+                        .icon img{
+                        width:28px;                 /* icon fills its cell */
+                        height:auto;
+                        }
+
+                        .text{
+                        flex:1;                     /* text column grows to fill */
+                        line-height:1.4;
+                        }
+                        </style>
+
+                        <div class="lesson-points">
+
+                            <div class="point-row">
+                                <div class="icon">
+                                    <img src="img/icons/book-user-svgrepo-com.svg" alt="Lecture icon">
+                                </div>
+                                <div class="article-content">
+                                    Lecture: entraînement à la lecture des hiragana, katakana et kanji.
+                                </div>
+                            </div>
+
+                            <div class="point-row">
+                                <div class="icon">
+                                <img src="img/icons/money-check-pen-svgrepo-com.svg" alt="Écriture icon">
+                                </div>
+                                <div class="article-content">
+                                    Écriture: exercices pour améliorer la maîtrise des caractères japonais.
+                                </div>
+                            </div>
+
+                            <div class="point-row">
+                                <div class="icon">
+                                <img src="img/icons/cassette-tape-svgrepo-com.svg" alt="Compréhension orale icon">
+                                </div>
+                                <div class="article-content">
+                                Compréhension orale: écoute d'extraits audio pour s'habituer aux sons et à la structure de la langue.
+                                </div>
+                            </div>
+
+                            <div class="point-row">
+                                <div class="icon">
+                                <img src="img/icons/letter-japanese-a-svgrepo-com-lightblack.svg" alt="Vocabulaire icon">
+                                </div>
+                                <div class="article-content">
+                                Vocabulaire: acquisition de mots et expressions utiles dans des contextes variés.
+                                </div>
+                            </div>
+
+                            <div class="point-row">
+                                <div class="icon">
+                                <img src="img/icons/spell-check-svgrepo-com.svg" alt="Grammaire icon">
+                                </div>
+                                <div class="article-content">
+                                Grammaire: explication et mise en pratique des points grammaticaux abordés dans la leçon.
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- <ul>
+                            <li class="article-content"><img src="img/icons/book-user-svgrepo-com.svg" style="width: 20px;">  Lecture : entraînement à la lecture des hiragana, katakana et kanji.</li>
+                            <li class="article-content"><img src="img/icons/money-check-pen-svgrepo-com.svg" style="width: 20px;"> Écriture : exercices pour améliorer la maîtrise des caractères japonais.</li>
+                            <li class="article-content"><img src="img/icons/cassette-tape-svgrepo-com.svg" style="width: 20px;"> Compréhension orale : écoute d'extraits audio pour s'habituer aux sons et à la structure de la langue.</li>
+                            <li class="article-content"><img src="img/icons/letter-japanese-a-svgrepo-com-lightblack.svg" style="width: 20px;"> Vocabulaire : acquisition de mots et expressions utiles dans des contextes variés.</li>
+                            <li class="article-content"><img src="img/icons/spell-check-svgrepo-com.svg" style="width: 20px;"> Grammaire : explication et mise en pratique des points grammaticaux abordés dans la leçon.</li>
+                        </ul> -->
                         </p>
                     </div>
                 </article>
@@ -237,7 +348,7 @@ Chaque cours dure 1 heure et est divisé en plusieurs parties complémentaires p
                 <article class="article article-tarifs">
                     <div class="article-headers-dark">
                         <h1 class="article-maintitle tarifs-maintitle">Tarifs*</h1>
-                        <h1 class="article-subtitle tarifs-subtitle">コンテンツ</h1>
+                        <h1 class="article-subtitle tarifs-subtitle">コース料金</h1>
                         <ul class="article-content bullets">
                             <li>Cours individuel: CHF 50.-/heure</li>
                             <li>Cours individuel en ligne: CHF 40.-/heure</li>
@@ -340,7 +451,7 @@ Chaque cours dure 1 heure et est divisé en plusieurs parties complémentaires p
                         <img src="img/mikjap1.jpg" alt="Italian Trulli" class="parcours-picture">
                     </div>
                     <div class="article-headers-partenaires">
-                        <h1 class="article-maintitle">Mon parcours</h1>
+                        <h1 class="article-maintitle parcours-maintitle">Mon parcours</h1>
                         <p class="article-content hook-content urbanist-ft">
                             Passionné par la langue japonaise depuis plusieurs années, j’ai eu la chance de vivre deux ans à Tokyo, où j’ai pu me plonger pleinement dans la culture et le quotidien japonais — une expérience qui a enrichi ma compréhension de la langue et de sa finesse. Ayant étudié le japonais pendant six ans, et étant devenu professeur il y a trois ans, j’accompagne des élèves de tous niveaux, avec des objectifs variés. Mes méthodes d’enseignement sont flexibles, ludiques et adaptées à chaque élève, selon son rythme et ses envies. Mon but est simple : partager cette passion du japonais avec le plus grand nombre, et vous accompagner dans cette aventure unique qu’est l’apprentissage d’une langue aussi riche et fascinante !
                         </p>
@@ -359,8 +470,8 @@ Chaque cours dure 1 heure et est divisé en plusieurs parties complémentaires p
                             <h1 class="article-maintitle contact-maintitle">Me contacter</h1>
                             <div class="etiquette-info-addition">
                                 <div class="etiquette-info-left">
-                                    <img src="img/icons/email-1573-svgrepo-com-fafafa.svg" alt="Italian Trulli" >
-                                    <img src="img/icons/phone-svgrepo-com-fafafa.svg" alt="Italian Trulli" >
+                                    <img src="img/icons/mail-01-svgrepo-com.svg" alt="Italian Trulli" >
+                                    <img src="img/icons/mobile-alt-2-svgrepo-com-white.svg" alt="Italian Trulli" >
                                 </div>
                                 <div class="etiquette-info-left">
                                     <span class="article-contact urbanist-ft bold">mick.pellet@gmail.com</span>
@@ -391,7 +502,15 @@ Chaque cours dure 1 heure et est divisé en plusieurs parties complémentaires p
                             <label for="nom">Nom</label>
                             <input type="text" id="nom" name="nom">
                         </div>
-                        
+
+                        <div class="form-group">
+                            <label for="nom">Email</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="nom">N° de téléphone</label>
+                            <input type="text" id="telephone" name="telephone">
+                        </div>                        
                         <div class="form-group">
                             <label for="message">Message</label>
                             <textarea id="message" name="message"></textarea>
@@ -411,13 +530,13 @@ Chaque cours dure 1 heure et est divisé en plusieurs parties complémentaires p
     <script>
 
         let sectionNameDisplay = {
-            "Acceuil":"Acceuil ホーム",
-            "cours":"Cours コース",
-            "tarifs":"Tarifs コース料金",
-            "partenaires":"Partenaires パートナー",
+            "Acceuil":"Acceuil  ホーム",
+            "cours":"Cours  コース",
+            "tarifs":"Tarifs  コース料金",
+            "partenaires":"Partenaires  パートナー",
             "avis":"Avis  レビュ",
-            "parcours":"À propos きゃりあ",
-            "contact":"Contact お問い合わせ"
+            "parcours":"À propos  きゃりあ",
+            "contact":"Contact  お問い合わせ"
         }
         const sections = document.querySelectorAll("section");
         const navLi = document.querySelectorAll(".nav-link");
