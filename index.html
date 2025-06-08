@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cours de japonais à Genève, à domicile ou en ligne. Préparation d'un voyage au Japon ou d'un examen (JLTP). Apprentissage de la langue et sa culture.">
 
+    <link rel="icon" type="image/svg+xml" href="img/icons/favicon.svg">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/icons/favicon-64.png">
+    <link rel="icon" href="img/icons/favicon-32.ico" sizes="32x32">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -37,7 +40,8 @@
     <!-- mobile menu -->
     <div class="mobile-nav-toggle">
         <!-- <span class="current-section-selector">></span> -->
-        <img id="current-section-icon" src="img/icons/arrow-circle-right-svgrepo-com.svg"> <span id="current-section-id">Acceuil  ホーム</span>
+        <!-- <img id="current-section-icon" src="img/icons/arrow-circle-right-svgrepo-com.svg"> <span id="current-section-id">Acceuil  ホーム</span> -->
+         <img id="current-section-icon" src="img/icons/favicon.svg"> <span id="current-section-id">Acceuil  ホーム</span>
         <div class="hamburger">
             <span></span>
             <span></span>
@@ -538,102 +542,87 @@
     </footer>
     <script type="application/ld+json">
     {
-    "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    "name": "Cours de japonais à Genève",
-    "description": "Cours de japonais à Genève — en groupe ou en privé, à domicile ou en ligne. Premier cours d'essai gratuit.",
-    "url": "https://mariusjauffret.github.io/JaponaisGeneve/",
-    "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Genève",
-        "addressCountry": "CH"
-    },
-    "areaServed": {
-        "@type": "Place",
-        "name": "Genève"
-    },
-    "serviceType": "Language Education",
-    "teaches": {
-        "@type": "Language",
-        "name": "Japanese",
-        "alternateName": "Japonais"
-    },
-    "offers": [
-        {
-        "@type": "Offer",
-        "name": "Cours de japonais en groupe",
-        "description": "Cours de japonais en groupe à Genève",
-        "serviceType": "Group Language Lessons"
-        },
-        {
-        "@type": "Offer",
-        "name": "Cours de japonais privés à domicile",
-        "description": "Cours de japonais privés à domicile",
-        "serviceType": "In-person home private Language Lessons",
-        "price": "50.00",
-        "priceCurrency": "CHF",
-        "priceSpecification": {
-            "@type": "UnitPriceSpecification",
-            "price": "50.00",
-            "priceCurrency": "CHF",
-            "unitCode": "HUR",
-            "unitText": "per hour"
-        }
-        },
-        {
-        "@type": "Offer",
-        "name": "Cours de japonais privés en ligne",
-        "description": "Cours de japonais privés en ligne",
-        "serviceType": "Online private Language Lessons",
-        "price": "40.00",
-        "priceCurrency": "CHF",
-        "priceSpecification": {
-            "@type": "UnitPriceSpecification",
-            "price": "40.00",
-            "priceCurrency": "CHF",
-            "unitCode": "HUR",
-            "unitText": "per hour"
-        }
-        },
-        {
-        "@type": "Offer",
-        "name": "Premier cours d'essai gratuit",
-        "description": "Premier cours d'essai gratuit",
-        "price": "0",
-        "priceCurrency": "CHF"
-        }
-    ],
-    "serviceArea": {
-        "@type": "GeoCircle",
-        "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": 46.2044,
-        "longitude": 6.1432
-        },
-        "name": "Genève et environs"
-    },
-    "availableChannel": [
-        {
-        "@type": "ServiceChannel",
-        "name": "À domicile",
-        "serviceType": "In-person home lessons"
-        },
-        {
-        "@type": "ServiceChannel",
-        "name": "En ligne",
-        "serviceType": "Online lessons"
-        }
-    ],
-    "founder": {
-        "@type": "Person",
+        "@context": "https://schema.org",
+        "@type": ["Person", "ProfessionalService"],      /* one-man local business */
+        "@id": "https://mariusjauffret.github.io/JaponaisGeneve/#parcours",
         "name": "Mikael Pellet",
-        "description": "Professeur de japonais ayant étudié 2 ans au Japon et 4 ans en autodidacte, certifié JLPT2"
-    },
-    "hasCredential": {
-        "@type": "EducationalOccupationalCredential",
-        "name": "2 ans d'études au Japon + 4 ans d'autodidacte, certifié JLPT2"
-    },
-    "@id": "https://mariusjauffret.github.io/JaponaisGeneve/"
+        "jobTitle": "Professeur de japonais (tuteur privé)",
+        "description": "Cours de japonais à Genève — en groupe ou en privé, à domicile ou en ligne. Premier cours d'essai gratuit.",
+        "url": "https://japonaisgeneve.ch",
+        "image": "https://mariusjauffret.github.io/JaponaisGeneve/img/mikjap1.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Genève",
+            "addressRegion": "GE",
+            "addressCountry": "CH"
+        },
+        "telephone": "+41 79 431 75 42",
+        "areaServed": "Genève",
+        "serviceArea": "Genève",
+        "priceRange": "CHF 40–50 / h",
+        "knowsLanguage": ["fr", "ja", "en"],
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 46.2044,
+            "longitude": 6.1432
+        },
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "certification",
+            "name": "JLPT N2"
+        },
+        "makesOffer": [
+            {
+                "@type": "Offer",
+                "name": "Cours de japonais en groupe",
+                "description": "Cours de japonais en groupe à Genève",
+                "category": "EducationalService"
+            },
+            {
+                "@type": "Offer",
+                "name": "Cours de japonais privés à domicile",
+                "description": "Cours de japonais privés à domicile - 50 CHF par heure",
+                "category": "EducationalService",
+                "price": "50.00",
+                "priceCurrency": "CHF",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "price": "50.00",
+                    "priceCurrency": "CHF",
+                    "referenceQuantity": {
+                        "@type": "QuantitativeValue",
+                        "value": 1,
+                        "unitText": "hour"
+                    }
+                }
+            },
+            {
+                "@type": "Offer",
+                "name": "Cours de japonais privés en ligne",
+                "description": "Cours de japonais privés en ligne - 40 CHF par heure",
+                "category": "EducationalService",
+                "price": "40.00",
+                "priceCurrency": "CHF",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "price": "40.00",
+                    "priceCurrency": "CHF",
+                    "referenceQuantity": {
+                        "@type": "QuantitativeValue",
+                        "value": 1,
+                        "unitText": "hour"
+                    }
+                }
+            },
+            {
+                "@type": "Offer",
+                "name": "Premier cours d'essai gratuit",
+                "description": "Premier cours d'essai gratuit pour tous les nouveaux étudiants",
+                "category": "EducationalService",
+                "price": "0",
+                "priceCurrency": "CHF"
+            }
+        ]
     }
     </script>
     <script>
