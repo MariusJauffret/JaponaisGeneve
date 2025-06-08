@@ -538,16 +538,102 @@
     </footer>
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "EducationalOrganization", "LanguageSchool"],
-        "name": "JaponaisGeneve.ch – Cours de japonais à Genève",
-        "url": "https://mariusjauffret.github.io/JaponaisGeneve/",
-        "image": "https://mariusjauffret.github.io/JaponaisGeneve/img/mikjap1.jpg",
-        "description": "Cours de japonais à Genève, à domicile ou en ligne. Préparation d'un voyage au Japon ou d'un examen (JLTP). Apprentissage de la langue et sa culture.",
-        "telephone": "+41-79-431-75-42",
-        "areaServed": "CH-GE",
-        "availableLanguage": ["ja", "fr", "eng"],
-        "priceRange": "CHF 40–50/h"
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Cours de japonais à Genève",
+    "description": "Cours de japonais à Genève — en groupe ou en privé, à domicile ou en ligne. Premier cours d'essai gratuit.",
+    "url": "https://mariusjauffret.github.io/JaponaisGeneve/",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Genève",
+        "addressCountry": "CH"
+    },
+    "areaServed": {
+        "@type": "Place",
+        "name": "Genève"
+    },
+    "serviceType": "Language Education",
+    "teaches": {
+        "@type": "Language",
+        "name": "Japanese",
+        "alternateName": "Japonais"
+    },
+    "offers": [
+        {
+        "@type": "Offer",
+        "name": "Cours de japonais en groupe",
+        "description": "Cours de japonais en groupe à Genève",
+        "serviceType": "Group Language Lessons"
+        },
+        {
+        "@type": "Offer",
+        "name": "Cours de japonais privés à domicile",
+        "description": "Cours de japonais privés à domicile",
+        "serviceType": "In-person home private Language Lessons",
+        "price": "50.00",
+        "priceCurrency": "CHF",
+        "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "50.00",
+            "priceCurrency": "CHF",
+            "unitCode": "HUR",
+            "unitText": "per hour"
+        }
+        },
+        {
+        "@type": "Offer",
+        "name": "Cours de japonais privés en ligne",
+        "description": "Cours de japonais privés en ligne",
+        "serviceType": "Online private Language Lessons",
+        "price": "40.00",
+        "priceCurrency": "CHF",
+        "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "40.00",
+            "priceCurrency": "CHF",
+            "unitCode": "HUR",
+            "unitText": "per hour"
+        }
+        },
+        {
+        "@type": "Offer",
+        "name": "Premier cours d'essai gratuit",
+        "description": "Premier cours d'essai gratuit",
+        "price": "0",
+        "priceCurrency": "CHF"
+        }
+    ],
+    "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.2044,
+        "longitude": 6.1432
+        },
+        "name": "Genève et environs"
+    },
+    "availableChannel": [
+        {
+        "@type": "ServiceChannel",
+        "name": "À domicile",
+        "serviceType": "In-person home lessons"
+        },
+        {
+        "@type": "ServiceChannel",
+        "name": "En ligne",
+        "serviceType": "Online lessons"
+        }
+    ],
+    "founder": {
+        "@type": "Person",
+        "name": "Mikael Pellet",
+        "description": "Professeur de japonais ayant étudié 2 ans au Japon et 4 ans en autodidacte, certifié JLPT2"
+    },
+    "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "name": "2 ans d'études au Japon + 4 ans d'autodidacte, certifié JLPT2"
+    },
+    "@id": "https://mariusjauffret.github.io/JaponaisGeneve/"
     }
     </script>
     <script>
