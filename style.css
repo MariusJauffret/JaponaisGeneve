@@ -92,10 +92,10 @@ html, body, h1,h2,h3,h4,p {
 }
 
 .mobile-nav-container {
-    padding: 20px 0px 0px;
+    padding: 10px 0px 0px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .mobile-nav-link {
@@ -726,8 +726,8 @@ PARCOURS
         font-style: normal;
         color: var(--black);
         position: absolute;
-        top: 51%;
-        left: calc(35px + 40px);
+        top: 50%;
+        left: calc(30px + 40px);
         transform: translate(0%, -50%);
       }
 
@@ -886,7 +886,7 @@ PARCOURS
     .article-headers-dark-row {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 50px;
     }
 
     #cours {
@@ -1184,8 +1184,8 @@ PARCOURS
         font-style: normal;
         color: var(--black);
         position: absolute;
-        top: 51%;
-        left: calc(35px + 40px);
+        top: 50%;
+        left: calc(30px + 40px);
         transform: translate(0%, -50%);
       }
 
@@ -1353,7 +1353,7 @@ PARCOURS
     .article-headers-dark-row {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 50px;
         padding-left: 35px;
         padding-right: 35px;
     }
