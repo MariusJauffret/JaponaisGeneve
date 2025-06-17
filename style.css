@@ -576,12 +576,12 @@ PARCOURS
     }
 
     .title-infobulle{
-        border: 2px solid var(--white);
+        border: 1.5px solid var(--white);
         border-radius: 25px;
         padding: 10px;
         color: var(--white);
         background-color: var(--red);
-        width: 230px;
+        width: 200px;
         text-align: center;
     }
 
@@ -731,12 +731,8 @@ PARCOURS
       .article-tarifs{
         margin: 0px;
         color: rgb(255, 255, 255);
-        background-color: none;
-        background-image: none;
-        border: none;
         border-radius: 15px;
-        opacity: 0.9;
-        border: whitesmoke solid 3px;
+        border: whitesmoke solid 2px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
         width: 100%;
       }
@@ -756,7 +752,7 @@ PARCOURS
         .article-avis{
         color: rgb(255, 255, 255);
         border-radius: 15px;
-        border: whitesmoke solid 3px;
+        border: whitesmoke solid 2px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
         width: 100%;
         
@@ -834,10 +830,11 @@ PARCOURS
     .form-group input,
     .form-group textarea {
         width: 100%;
-        border: 1px solid #ddd;
+        border: 1px solid #ff6565;
         padding: 5px;
         border-radius: 4px;
-        background-color: #f5f5f5;
+        background-color: #f5f5f500;
+        color: var(--white);
         font-family: "Urbanist", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -864,8 +861,8 @@ PARCOURS
     .form-group input:focus,
     .form-group textarea:focus {
         outline: none;
-        border-color: #aaa;
-        background-color: white;
+        border-color: #ffffff;
+        transition: 0.3s;
     }
 
     .form-group textarea {
@@ -890,7 +887,7 @@ PARCOURS
         color: var(--white);
         cursor: pointer;
         transition: background-color 0.2s;
-        border: 2px solid white;
+        border: 1.5px solid white;
 
         border-radius: 45px;
         padding-top: 10px;
@@ -902,7 +899,7 @@ PARCOURS
     button:hover {
         background-color: var(--white);
         color: var(--red);
-        border: 2px solid white;
+        border: 1.5px solid white;
     }
 
     .partenaires-article {
@@ -1055,12 +1052,12 @@ PARCOURS
     }
 
     .title-infobulle{
-        border: 2px solid var(--white);
+        border: 1.5px solid var(--white);
         border-radius: 25px;
         padding: 10px;
         color: var(--white);
         background-color: var(--red);
-        width: 230px;
+        width: 200px;
         text-align: center;
     }
 
@@ -1213,12 +1210,8 @@ PARCOURS
       .article-tarifs{
         margin: auto;
         color: rgb(255, 255, 255);
-        background-color: none;
-        background-image: none;
-        border: none;
         border-radius: 15px;
-        opacity: 0.9;
-        border: whitesmoke solid 3px;
+        border: whitesmoke solid 2px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
         width: calc(100% - 70px);
       }
@@ -1237,12 +1230,8 @@ PARCOURS
 
         .article-avis{
         color: rgb(255, 255, 255);
-        background-color: none;
-        background-image: none;
-        border: none;
         border-radius: 15px;
-        opacity: 0.9;
-        border: whitesmoke solid 3px;
+        border: whitesmoke solid 2px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
         width: calc(100% - 70px);
       }
@@ -1322,15 +1311,15 @@ PARCOURS
     .form-group input,
     .form-group textarea {
         width: 100%;
-        border: 1px solid #ddd;
+        border: 1px solid #ff6565;
         padding: 5px;
         border-radius: 4px;
-        background-color: #f5f5f5;
+        background-color: #f5f5f500;
+        color: var(--white);
         font-family: "Urbanist", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-size: var(--content-font-size);
-        
     }
 
     .form-group {
@@ -1356,8 +1345,8 @@ PARCOURS
     .form-group input:focus,
     .form-group textarea:focus {
         outline: none;
-        border-color: #aaa;
-        background-color: white;
+        border-color: #ffffff;
+        transition: 0.3s;
     }
 
     .form-group textarea {
@@ -1384,7 +1373,7 @@ PARCOURS
         color: var(--white);
         cursor: pointer;
         transition: background-color 0.2s;
-        border: 2px solid white;
+        border: 1.5px solid white;
 
         border-radius: 45px;
         padding-top: 10px;
@@ -1396,7 +1385,7 @@ PARCOURS
     button:hover {
         background-color: var(--white);
         color: var(--red);
-        border: 2px solid white;
+        border: 1.5px solid white;
     }
 
     .partenaires-article {
@@ -1572,7 +1561,7 @@ PARCOURS
     }
 
     .title-infobulle{
-        border: 2px solid var(--white);
+        border: 1.5px solid var(--white);
         border-radius: 25px;
         padding: 10px;
         color: var(--white);
@@ -1692,7 +1681,7 @@ PARCOURS
         min-width: 420px;
         color: rgb(255, 255, 255);
         border-radius: 15px;
-        border: whitesmoke solid 3px;
+        border: whitesmoke solid 2px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
         width: calc(50% - 50px);
       }
@@ -1708,7 +1697,7 @@ PARCOURS
         margin: 0px;
         color: rgb(255, 255, 255);
         border-radius: 15px;
-        border: whitesmoke solid 3px;
+        border: whitesmoke solid 2px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
         width: 100%;
         min-width: 320px;
@@ -1740,7 +1729,7 @@ PARCOURS
     }
 
     .form-container {
-        padding-top: 50px;
+        padding-top: 30px;
         width: 50%;
         margin: 0 auto;
     }
@@ -1748,10 +1737,11 @@ PARCOURS
     .form-group input,
     .form-group textarea {
         width: 100%;
-        border: 1px solid #ddd;
+        border: 1px solid #ff6565;
         padding: 5px;
         border-radius: 4px;
-        background-color: #f5f5f5;
+        background-color: #f5f5f500;
+        color: var(--white);
         font-family: "Urbanist", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -1779,8 +1769,8 @@ PARCOURS
     .form-group input:focus,
     .form-group textarea:focus {
         outline: none;
-        border-color: #aaa;
-        background-color: white;
+        border-color: #ffffff;
+        transition: 0.3s;
     }
 
     .form-group textarea {
@@ -1805,7 +1795,7 @@ PARCOURS
         color: var(--white);
         cursor: pointer;
         transition: background-color 0.2s;
-        border: 2px solid white;
+        border: 1.5px solid white;
 
         border-radius: 45px;
         padding-top: 10px;
@@ -1817,7 +1807,7 @@ PARCOURS
     button:hover {
         background-color: var(--white);
         color: var(--red);
-        border: 2px solid white;
+        border: 1.5px solid white;
     }
 
     .article-headers-dark-row{
