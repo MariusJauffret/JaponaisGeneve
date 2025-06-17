@@ -842,15 +842,13 @@ PARCOURS
         font-weight: 400;
         font-size: var(--content-font-size);
         padding: 10px 20px;
-        background-color: #ffffff;
-        color: var(--red);
-        border: none;
-        border-radius: 20px;
+        background-color: var(--red);
+        color: var(--white);
         cursor: pointer;
         transition: background-color 0.2s;
-        border: 1px solid white;
+        border: 2px solid white;
 
-        border-radius: 15px;
+        border-radius: 45px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 20px;
@@ -858,9 +856,9 @@ PARCOURS
     }
 
     button:hover {
-        background-color: var(--red);
-        color: white;
-        border: 1px solid white;
+        background-color: var(--white);
+        color: var(--red);
+        border: 2px solid white;
     }
 
     .partenaires-article {
@@ -994,6 +992,8 @@ PARCOURS
         padding: 10px;
         color: var(--white);
         background-color: var(--red);
+        width: 230px;
+        text-align: center;
     }
 
     .std-article, .secondary-article {
@@ -1309,15 +1309,13 @@ PARCOURS
         font-weight: 400;
         font-size: var(--content-font-size);
         padding: 10px 20px;
-        background-color: #ffffff;
-        color: var(--red);
-        border: none;
-        border-radius: 20px;
+        background-color: var(--red);
+        color: var(--white);
         cursor: pointer;
         transition: background-color 0.2s;
-        border: 1px solid white;
+        border: 2px solid white;
 
-        border-radius: 15px;
+        border-radius: 45px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 20px;
@@ -1325,9 +1323,9 @@ PARCOURS
     }
 
     button:hover {
-        background-color: var(--red);
-        color: white;
-        border: 1px solid white;
+        background-color: var(--white);
+        color: var(--red);
+        border: 2px solid white;
     }
 
     .partenaires-article {
@@ -1721,19 +1719,23 @@ PARCOURS
         font-weight: 400;
         font-size: var(--content-font-size);
         padding: 10px 20px;
-        background-color: #ffffff;
-        color: var(--red);
-        border: none;
-        border-radius: 20px;
+        background-color: var(--red);
+        color: var(--white);
         cursor: pointer;
-        border: 1px solid white;
         transition: background-color 0.2s;
+        border: 2px solid white;
+
+        border-radius: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     button:hover {
-        background-color: var(--red);
-        color: white;
-        border: 1px solid white;
+        background-color: var(--white);
+        color: var(--red);
+        border: 2px solid white;
     }
 
     .article-headers-dark-row{
