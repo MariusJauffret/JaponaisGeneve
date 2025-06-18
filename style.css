@@ -1582,6 +1582,7 @@ PARCOURS
     .article-picture {
         border-radius: 150px;
         width: 230px;
+        height: 230px;
     }
 
     .cours-wrapper-left{
