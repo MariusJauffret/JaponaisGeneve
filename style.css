@@ -426,13 +426,10 @@ PARCOURS
 
 .acceuil-maintitle{
     color: var(--black);
-    
-
 }
 
 .acceuil-subtitle{
     color: var(--black);
-
 }
 
 .cours-maintitle{
@@ -1064,7 +1061,6 @@ PARCOURS
     .article-top {
         flex-direction: column;
         height: auto;
-
     }
 
     .collab{
@@ -1463,7 +1459,6 @@ PARCOURS
         flex-direction: column;
         gap : 15px;
         background-color: var(--white);
-
         padding: 35px;
         border-radius: 5px;
     }
@@ -1490,7 +1485,6 @@ PARCOURS
         font-size: var(--content-font-size);
         letter-spacing: 0.5px;
         text-decoration: none;
-
     }
 
     .added-title{
@@ -1586,8 +1580,8 @@ PARCOURS
     }
 
     .article-picture {
-    border-radius: 150px;
-    width: 230px;
+        border-radius: 150px;
+        width: 230px;
     }
 
     .cours-wrapper-left{
