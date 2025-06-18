@@ -61,7 +61,6 @@
             --bottom-distance : 0px;
             /* --border-radius-article: 15px; */
         }
-
         .article {
             margin: auto;
             display: flex;
@@ -84,8 +83,47 @@
         .acceuil-maintitle{
             color: var(--black);
         }
+
         .acceuil-subtitle{
             color: var(--black);
+        }
+
+        .cours-maintitle{
+            text-align: center;
+        }
+
+        .cours-subtitle{
+            color: var(--black);
+            text-align: center;
+        }
+
+        .tarifs-maintitle{
+            color: var(--white);
+            text-align: center;
+        }
+
+        .tarifs-subtitle{
+            color: var(--white);
+            text-align: center;
+        }
+
+        .contact-maintitle{
+            color: var(--white);
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .partenaires-maintitle{
+            text-align: center;
+            color: var(--black);
+        }
+
+        .parcours-maintitle{
+            color: var(--black);
+        }
+
+        .bold{
+            font-weight: 400;
         }
 
         .etiquette{
@@ -97,16 +135,27 @@
             gap: 15px;
             padding: 35px;
         }
-
         .etiquette-info-left{
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
         }
-
         .etiquette-info-left > img {
             height: 20px;
             width: 20px;
+        }
+        .me-contacter{
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            order: 2;
+        }
+        .prendre-rdv{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            order: 1;
         }
 
         @media screen and (max-width: 767px){
@@ -163,6 +212,71 @@
                     flex-direction: row;
                     gap: 15px;
                 }
+                .hook-title-mobile{
+                    position: relative;
+                    display: flex;
+                    gap: 10px;
+                    flex-direction:column;
+
+                    background: linear-gradient(to bottom, 
+                    rgba(251,241,226, 1) 0%,
+                    rgba(251,241,226, 1) 70%,
+                    rgba(251,241,226, 0) 100%
+                    );
+
+                    padding-left: 35px;
+                    padding-right: 35px;
+                    padding-bottom: 20px;
+                    padding-top: 50px;    
+                }
+                .hook-article {
+                    margin-bottom: 10px;
+                }
+                .hook-title-desktop{
+                    display: none;
+                }
+                .hook-item1{
+                    display: none;
+                }
+                .hook-item2{
+                    order: 1;
+                    align-items: flex-start;
+                    padding-top: 15px;
+                }
+                .hook-mobile{
+                    border-radius: 15px;
+                    box-shadow: 0 8px 2px -2px rgba(128, 128, 128, 0.059);
+                }
+                .essai-gratuit-button{
+                    display: none;
+                }
+                .title-button{
+                    border: 2px solid var(--red);
+                    border-radius: 25px;
+                    padding: 10px;
+                    color: var(--white);
+                    background-color: var(--red);
+                    cursor: pointer;
+                    width: 220px;
+                    text-align: center;
+                    margin-top: 25px;
+                }
+
+                .title-infobulle{
+                    /* border: 1.5px solid var(--white);
+                    border-radius: 25px; */
+                    /* padding: 10px; */
+                    color: var(--white);
+                    background-color: var(--red);
+                    width: 250px;
+                    text-align: left;
+                    
+                }
+                .contact-article {
+                    padding-top: 50px;
+                    margin-bottom: 50px;
+                    width: 80%;
+                }
         }
         @media screen and (min-width: 768px) and (max-width: 1024px){
                 :root {
@@ -217,6 +331,77 @@
                     flex-direction: row;
                     gap: 15px;
                 }
+                .hook-article {
+                    margin-bottom: 10px;
+                    width: 100%;
+                }
+                .hook-item1{
+                    display: none;
+                }
+
+                .hook-item2{
+                    order: 1;
+                    align-items: flex-start;
+                    width: calc(70% - 70px);
+                    margin: auto;
+                }
+
+                .hook-mobile{
+                    border-radius: 15px;
+                    box-shadow: 0 8px 2px -2px rgba(128, 128, 128, 0.059);
+                }
+                .hook-title-mobile{
+                    position: relative;
+                    display: flex;
+                    gap: 10px;
+                    flex-direction:column;
+
+                    background: linear-gradient(to bottom, 
+                    rgba(251,241,226, 1) 0%,
+                    rgba(251,241,226, 1) 70%,
+                    rgba(251,241,226, 0) 100%
+                    );
+
+                padding-left: calc(40% / 2);
+                padding-right: 20px;
+                padding-bottom: 20px;
+                padding-top: 40px;    
+                }
+
+                .hook-title-mobile > h1 {
+                    width: 70%;
+                }
+                .hook-title-desktop{
+                    display: none;
+                }
+                .essai-gratuit-button{
+                    display: none;
+                }
+                .title-button{
+                    border: 2px solid var(--red);
+                    border-radius: 25px;
+                    padding: 10px;
+                    color: var(--white);
+                    background-color: var(--red);
+                    cursor: pointer;
+                    width: 220px;
+                    text-align: center;
+                    margin-top: 25px;
+                }
+
+                .title-infobulle{
+                    /* border: 1.5px solid var(--white);
+                    border-radius: 25px; */
+                    /* padding: 10px; */
+                    color: var(--white);
+                    background-color: var(--red);
+                    width: 250px;
+                    text-align: left;
+                }
+                .contact-article {
+                    padding-top: 50px;
+                    margin-bottom: 50px;
+                }
         }
         @media screen and (min-width: 1025px){
                 :root{
@@ -260,6 +445,55 @@
                     display: flex;
                     gap: 15px;
                     justify-content: center;
+                }
+                .hook-article{
+                    width: 50%;
+                    margin-top : 50px;
+                    margin-bottom: 50px;
+                    min-width: 750px;
+                }
+                .hook-mobile{
+                    display: none;
+                }
+                .hook-title-mobile{
+                    display: none;
+                }
+
+                .hook-title-desktop{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    margin-bottom: 20px;
+                }
+                .essai-gratuit-button{
+                    margin-bottom: 20px;
+                }
+                .title-button{
+                    border: 2px solid var(--red);
+                    border-radius: 25px;
+                    padding: 10px;
+                    color: var(--white);
+                    background-color: var(--red);
+                    cursor: pointer;
+                    margin-bottom: 15px;
+                    width: 250px;
+                    text-align: center;
+                    /* margin-top: 15px; */
+                }
+                .title-infobulle{
+                    /* border: 1.5px solid var(--white);
+                    border-radius: 25px; */
+                    /* padding: 10px; */
+                    color: var(--white);
+                    background-color: var(--red);
+                    width: 250px;
+                    text-align: left;
+                }
+                .contact-article {
+                    padding-top: 50px;
+                    margin-bottom: 50px;
+                    width: 50%;
+                    min-width: 720px;
                 }
         }
     </style>
@@ -716,7 +950,7 @@
             <article class="article contact-article">
                 <div class="article-top">
                     <div class="article-headers-dark-row">
-                        <div style="display: flex; flex-direction: column; gap: 10px;" class="prendre-rdv">
+                        <div class="prendre-rdv">
                             <h2 class="article-maintitle contact-maintitle">Prendre Rendez-vous</h2>
                             <p class="article-contact">
                                 Afin de reserver votre <img src="img/icons/arrow-circle-right-svgrepo-com.svg" alt="cours d'essai gratuit" style="vertical-align: middle;" width="20" height="20" loading="lazy"> <strong>cours d'essai gratuit</strong>, il vous suffit de m’envoyer vos disponibilités ainsi que le lieu où vous aimeriez que ce premier rendez-vous ait lieu, et je vous répondrai au plus vite !
@@ -725,7 +959,7 @@
                                 Vous pouvez me contacter par téléphone, email ou à travers le formulaire de contact ci-dessous.
                             </p>
                         </div>
-                        <div style="flex-shrink: 0; display: flex; flex-direction: column; gap: 10px;" class="me-contacter">
+                        <div class="me-contacter">
                             <h2 class="article-maintitle contact-maintitle">Me contacter</h2>
                             <div class="etiquette-info-addition">
                                 <div class="etiquette-info-left">

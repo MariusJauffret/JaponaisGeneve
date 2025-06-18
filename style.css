@@ -564,10 +564,6 @@ PARCOURS
         
     }
 
-    .std-article, .secondary-article {
-        width: 80%;
-    }
-
     .added-title{
         color: var(--white);
         left: 0%;
@@ -793,10 +789,17 @@ PARCOURS
     }
 
     .me-contacter{
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         order: 2;
     }
 
     .prendre-rdv{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         order: 1;
     }
 
@@ -1045,10 +1048,6 @@ PARCOURS
         text-align: left;
     }
 
-    .std-article, .secondary-article {
-        width: 80%;
-    }
-
     .added-title{
         color: var(--white);
         left: 0%;
@@ -1274,10 +1273,17 @@ PARCOURS
     }
 
     .me-contacter{
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         order: 2;
     }
 
     .prendre-rdv{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         order: 1;
     }
 
@@ -1712,7 +1718,6 @@ PARCOURS
         margin-bottom: 50px;
         width: 50%;
         min-width: 720px;
-
     }
 
     .article-contact{
