@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" as="image" href="img/jap3-7954960.webp" type="image/webp">
     <link rel="preload" as="image" href="img/10914112.webp" type="image/webp">
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:...&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Urbanist:...&display=swap" rel="stylesheet"> -->
 
 
     <meta name="description" content="Cours de japonais à Genève, à domicile ou en ligne. Préparation d'un voyage au Japon ou d'un examen (JLTP). Apprentissage de la langue et sa culture.">
@@ -18,7 +18,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="style.css">
     <link rel="canonical" href="https://japonaisgeneve.ch/">
@@ -215,7 +215,7 @@
                                 </div>
                             </div>
                             <p class="article-content hook-content-mobile">
-                            <strong>Professeur de Japonais</strong> certifié JLPT N2 depuis plus de 3 ans, ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte.
+                            <span class="bold">Professeur de Japonais</span> certifié JLPT N2 depuis plus de 3 ans, ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte.
                             </p>
                             <p class="article-content hook-content-mobile">
                             Mes méthodes d'apprentissage et donc d'enseignement sont très variées, je saurai m'adapter aux besoins de l'élève.
@@ -225,7 +225,7 @@
                             </p>
                     </div>
                             <p class="article-content hook-content-desktop">
-                            <strong>Professeur de Japonais</strong> certifié JLPT N2 depuis plus de 3 ans, ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte.
+                            <span class="bold">Professeur de Japonais</span> certifié JLPT N2 depuis plus de 3 ans, ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte.
                             </p>
                             <p class="article-content hook-content-desktop">
                             Mes méthodes d'apprentissage et donc d'enseignement sont très variées, je saurai m'adapter aux besoins de l'élève.
@@ -494,7 +494,7 @@
                         <div class="prendre-rdv">
                             <h2 class="article-maintitle contact-maintitle">Prendre Rendez-vous</h2>
                             <p class="article-contact">
-                                Afin de reserver votre <img src="img/icons/arrow-circle-right-svgrepo-com.svg" alt="cours d'essai gratuit" style="vertical-align: middle;" width="20" height="20" loading="lazy"> <strong>cours d'essai gratuit</strong>, il vous suffit de m’envoyer vos disponibilités ainsi que le lieu où vous aimeriez que ce premier rendez-vous ait lieu, et je vous répondrai au plus vite !
+                                Afin de reserver votre <img src="img/icons/arrow-circle-right-svgrepo-com.svg" alt="cours d'essai gratuit" style="vertical-align: middle;" width="20" height="20" loading="lazy"><span class="bold">cours d'essai gratuit</span>, il vous suffit de m’envoyer vos disponibilités ainsi que le lieu où vous aimeriez que ce premier rendez-vous ait lieu, et je vous répondrai au plus vite !
                             </p>
                             <p class="article-contact">
                                 Vous pouvez me contacter par téléphone, email ou à travers le formulaire de contact ci-dessous.
@@ -508,8 +508,8 @@
                                     <img src="img/icons/phone-call-svgrepo-com-white.svg" alt="Contact par téléphone" width="20" height="20" loading="lazy">
                                 </div>
                                 <div class="etiquette-info-left">
-                                    <span class="article-contact  bold">mick.pellet@gmail.com</span>
-                                    <span class="article-contact  bold" style="height: 100%;">+41 79 431 75 42</span>
+                                    <span class="article-contact">mick.pellet@gmail.com</span>
+                                    <span class="article-contact" style="height: 100%;">+41 79 431 75 42</span>
                                 </div>
                             </div>
                         </div>
@@ -693,7 +693,6 @@
 
             sections.forEach((section) => {
                 const sectionTop = section.offsetTop;
-                console.log(pageYOffset)
                 if (pageYOffset >= sectionTop - 100) {
                 current = section.getAttribute("id");
                 }
@@ -715,7 +714,6 @@
         const mobileNavToggle = document.querySelector('.hamburger');
         const mobileNav = document.querySelector('.mobile-nav');
         const mobileNavT = document.querySelector('.mobile-nav-toggle');
-        console.log(mobileNavT);
         const hamburger = document.querySelector('.hamburger');
         const body = document.body;
 
