@@ -377,7 +377,7 @@ GENERAL OVERALL
 }
 
 /*
-ACCEUIL
+ACCUEIL 
 */
 .landingpage-bg {
     height: 10%;
@@ -489,11 +489,11 @@ PARCOURS
     color: var(--black);
 }
 
-.acceuil-maintitle{
+.accueil-maintitle{
     color: var(--black);
 }
 
-.acceuil-subtitle{
+.accueil-subtitle{
     color: var(--black);
 }
 
@@ -533,6 +533,36 @@ PARCOURS
 
 .bold{
     font-weight: 600;
+}
+
+.lesson-points{
+padding-top: 15px;
+display:flex;               /* outer grid */
+flex-direction:column;      /* 5 rows */
+gap:1rem;                   /* space between rows */
+max-width:700px;            /* optional: limit total width */
+margin:0 auto;              /* center on page */
+font-family:system-ui, sans-serif;
+}
+
+.point-row{
+display:flex;               /* 2 columns */
+align-items:flex-start;     /* icons and text align at the top */
+}
+
+.icon{
+
+margin-inline-end:12px;     /* gap between icon & text */
+}
+
+.icon img{
+width:28px;                 /* icon fills its cell */
+height:auto;
+}
+
+.text{
+flex:1;                     /* text column grows to fill */
+line-height:1.4;
 }
 
 
@@ -695,7 +725,7 @@ PARCOURS
         order: 1;
     }
 
-    #acceuil {
+    #accueil {
         background-image: url("img/jap3-7954960.webp");;
         background-position: top;
         height: auto;   
@@ -1178,7 +1208,7 @@ PARCOURS
         order: 1;
     }
 
-    #acceuil {
+    #accueil {
         background-image: url("img/jap3-7954960.webp");;
         background-position: top;
         height: auto;   
@@ -1575,7 +1605,7 @@ PARCOURS
         gap: 5px;
     }
 
-    #acceuil {
+    #accueil {
         position: relative;
         height: 100vh;
         min-height: 870px;
