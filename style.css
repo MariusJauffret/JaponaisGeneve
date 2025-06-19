@@ -1,16 +1,9 @@
 :root {
     --white: #fcfcfc;
-    --old-red: #FF7373;
-    /* --mid-red: #FF1D1D; */
-    --mid-red: #c90317;
     --beige: #f2e5d9;
     --black: #0e0e0e;
-    /* --red: rgba(160, 48, 58, 1); */
-    --light-red: #f5172d;
     --light-red: #f7053e;
-    --red: #c90317;
-    --bloodred: #A10211;
-    --blue: #0093FE;
+    --red: #d50032;
     --hook-title-font-size: 36px;
     --content-font-size : 18px;
     --maintitle-font-size : 30px;
@@ -19,8 +12,89 @@
     --nav-maintitle-letter-spacing: 0px;
     --nav-subtitle-font-size : 10px;
     --bottom-distance : 0px;
-    /* --border-radius-article: 15px; */
   }
+
+/* lexend-deca-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 200;
+  src: url('fonts/lexend-deca-v24-latin/lexend-deca-v24-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lexend-deca-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/lexend-deca-v24-latin/lexend-deca-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lexend-deca-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/lexend-deca-v24-latin/lexend-deca-v24-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* urbanist-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 100;
+  src: url('fonts/urbanist-v17-latin/urbanist-v17-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* urbanist-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 200;
+  src: url('fonts/urbanist-v17-latin/urbanist-v17-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* urbanist-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/urbanist-v17-latin/urbanist-v17-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* urbanist-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/urbanist-v17-latin/urbanist-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* urbanist-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/urbanist-v17-latin/urbanist-v17-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* urbanist-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/urbanist-v17-latin/urbanist-v17-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* urbanist-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 800;
+  src: url('fonts/urbanist-v17-latin/urbanist-v17-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
   a[x-apple-data-detectors], a[href^="tel"] {
   color: inherit !important;
@@ -29,6 +103,18 @@
 
 html, body, h1,h2,h3,h4,p {
     margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 
@@ -147,7 +233,7 @@ html, body, h1,h2,h3,h4,p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
+    width: 95px;
 
     background-image: linear-gradient(var(--light-red), var(--light-red));
     background-repeat: no-repeat;
@@ -176,7 +262,7 @@ html, body, h1,h2,h3,h4,p {
 }
 
 .nav-link:hover .nav-item-sub-title {
-    font-family: "Asap Condensed", sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-weight: 800;
     font-style: normal;
     color: var(--red);
@@ -196,7 +282,7 @@ html, body, h1,h2,h3,h4,p {
 
 .nav-item-sub-title
 {
-    font-family: "Asap Condensed", sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: var(--nav-subtitle-font-size);
@@ -221,7 +307,7 @@ Active Link Class
 }
 
 .active .nav-item-sub-title {
-    font-family: "Asap Condensed", sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
@@ -291,7 +377,7 @@ GENERAL OVERALL
 }
 
 /*
-ACCEUIL
+ACCUEIL 
 */
 .landingpage-bg {
     height: 10%;
@@ -366,6 +452,7 @@ PARCOURS
 
 .parcours-picture {
     width: 100%;
+    height: auto;
 }
 
 .hook-maintitle {
@@ -396,31 +483,18 @@ PARCOURS
 .article-subtitle {
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
+    font-weight: 400;
     font-size: var(--subtitle-font-size);
     color: var(--black);
 }
 
-/* .article-subtitle-hook{
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: var(--subtitle-font-size);
+.accueil-maintitle{
     color: var(--black);
-} */
-
-
-.acceuil-maintitle{
-    color: var(--black);
-    
-
 }
 
-.acceuil-subtitle{
+.accueil-subtitle{
     color: var(--black);
-
 }
 
 .cours-maintitle{
@@ -458,7 +532,37 @@ PARCOURS
 }
 
 .bold{
-    font-weight: 400;
+    font-weight: 600;
+}
+
+.lesson-points{
+padding-top: 15px;
+display:flex;               /* outer grid */
+flex-direction:column;      /* 5 rows */
+gap:1rem;                   /* space between rows */
+max-width:700px;            /* optional: limit total width */
+margin:0 auto;              /* center on page */
+font-family:system-ui, sans-serif;
+}
+
+.point-row{
+display:flex;               /* 2 columns */
+align-items:flex-start;     /* icons and text align at the top */
+}
+
+.icon{
+
+margin-inline-end:12px;     /* gap between icon & text */
+}
+
+.icon img{
+width:28px;                 /* icon fills its cell */
+height:auto;
+}
+
+.text{
+flex:1;                     /* text column grows to fill */
+line-height:1.4;
 }
 
 
@@ -482,11 +586,11 @@ PARCOURS
         }
 
     .article-content {
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: var(--content-font-size);
-    text-decoration: none;
+        font-family: "Urbanist", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: var(--content-font-size);
+        text-decoration: none;
     }
 
     .hook-title-mobile{
@@ -545,26 +649,19 @@ PARCOURS
     }
 
     .title-infobulle{
-        /* border: 1.5px solid var(--white);
-        border-radius: 25px; */
-        /* padding: 10px; */
         color: var(--white);
         background-color: var(--red);
         width: 250px;
-        text-align: left;
-        
-    }
-
-    .std-article, .secondary-article {
-        width: 80%;
+        text-align: left;   
     }
 
     .added-title{
         color: var(--white);
-        left: 10%;
+        left: 0%;
         position: relative;
-        padding-bottom: 40px;
-        width: 90%;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
     }
 
     .article-top {
@@ -628,7 +725,7 @@ PARCOURS
         order: 1;
     }
 
-    #Acceuil {
+    #accueil {
         background-image: url("img/jap3-7954960.webp");;
         background-position: top;
         height: auto;   
@@ -703,7 +800,6 @@ PARCOURS
         color: var(--white);
         border-radius: 15px;
         border: var(--white) solid 2px;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
         width: 100%;
       }
 
@@ -717,6 +813,7 @@ PARCOURS
         display: flex;
         flex-direction: column;
         gap: 50px;
+        padding-top: 40px;
       }
 
         .article-avis{
@@ -783,10 +880,17 @@ PARCOURS
     }
 
     .me-contacter{
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         order: 2;
     }
 
     .prendre-rdv{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         order: 1;
     }
 
@@ -1026,31 +1130,24 @@ PARCOURS
     }
 
     .title-infobulle{
-        /* border: 1.5px solid var(--white);
-        border-radius: 25px; */
-        /* padding: 10px; */
         color: var(--white);
         background-color: var(--red);
         width: 250px;
         text-align: left;
     }
 
-    .std-article, .secondary-article {
-        width: 80%;
-    }
-
     .added-title{
         color: var(--white);
-        left: calc(15% + 35px);
+        left: 0%;
         position: relative;
-        padding-bottom: 40px;
-        width: calc(85% - 35px);
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
     }
 
     .article-top {
         flex-direction: column;
         height: auto;
-
     }
 
     .collab{
@@ -1111,7 +1208,7 @@ PARCOURS
         order: 1;
     }
 
-    #Acceuil {
+    #accueil {
         background-image: url("img/jap3-7954960.webp");;
         background-position: top;
         height: auto;   
@@ -1186,7 +1283,6 @@ PARCOURS
         color: var(--white);
         border-radius: 15px;
         border: var(--white) solid 2px;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
         width: calc(100% - 70px);
       }
 
@@ -1200,6 +1296,7 @@ PARCOURS
         display: flex;
         flex-direction: column;
         gap: 50px;
+        padding-top: 40px;
       }
 
         .article-avis{
@@ -1264,10 +1361,17 @@ PARCOURS
     }
 
     .me-contacter{
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         order: 2;
     }
 
     .prendre-rdv{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         order: 1;
     }
 
@@ -1449,7 +1553,6 @@ PARCOURS
         flex-direction: column;
         gap : 15px;
         background-color: var(--white);
-
         padding: 35px;
         border-radius: 5px;
     }
@@ -1465,6 +1568,10 @@ PARCOURS
         margin-bottom: 20px;
     }
 
+    .essai-gratuit-button{
+        margin-bottom: 20px;
+    }
+
     .article-content {
         font-family: "Urbanist", sans-serif;
         font-optical-sizing: auto;
@@ -1472,14 +1579,13 @@ PARCOURS
         font-size: var(--content-font-size);
         letter-spacing: 0.5px;
         text-decoration: none;
-
     }
 
     .added-title{
         color: var(--white);
         left: 0%;
         position: relative;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         width: 100%;
         text-align: center;
     }
@@ -1496,10 +1602,10 @@ PARCOURS
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 25px;
+        gap: 5px;
     }
 
-    #Acceuil {
+    #accueil {
         position: relative;
         height: 100vh;
         min-height: 870px;
@@ -1526,15 +1632,12 @@ PARCOURS
         color: var(--white);
         background-color: var(--red);
         cursor: pointer;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         width: 250px;
         text-align: center;
-        /* margin-top: 15px; */
     }
+
     .title-infobulle{
-        /* border: 1.5px solid var(--white);
-        border-radius: 25px; */
-        /* padding: 10px; */
         color: var(--white);
         background-color: var(--red);
         width: 250px;
@@ -1568,8 +1671,9 @@ PARCOURS
     }
 
     .article-picture {
-    border-radius: 150px;
-    width: 230px;
+        border-radius: 150px;
+        width: 230px;
+        height: 230px;
     }
 
     .cours-wrapper-left{
@@ -1612,8 +1716,7 @@ PARCOURS
 
     .landing-footer{
         width: 100%;
-        /* background-image: url("img/photo-stone-texture-pattern.jpg"); */
-        background-color: var(--mid-red);
+        background-color: var(--red);
         height: 5%;
         position: absolute;
         background-size: cover;
@@ -1653,7 +1756,6 @@ PARCOURS
         color: var(--white);
         border-radius: 15px;
         border: var(--white) solid 2px;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
         width: calc(50% - 50px);
       }
 
@@ -1663,6 +1765,7 @@ PARCOURS
         grid-template-columns: repeat(4, 340px);
         justify-content: center;
         padding: 20px;
+        padding-top: 40px;
     }
 
     /* Force 2x2 layout below 1400px */
@@ -1690,7 +1793,7 @@ PARCOURS
 
     .parcours-article {
         margin-bottom: 50px;
-        width: 60%;
+        width: 50%;
         min-width: 980px;
     }
 
@@ -1699,7 +1802,6 @@ PARCOURS
         margin-bottom: 50px;
         width: 50%;
         min-width: 720px;
-
     }
 
     .article-contact{
@@ -1811,10 +1913,8 @@ PARCOURS
         min-width: 720px;
     }
 
-
     .etiquette-parcours{
         display: flex;
-        /* background-image: url("img/white-paper-texture.jpg"); */
         flex-direction: column;
         align-items: center;
         gap: 15px;
