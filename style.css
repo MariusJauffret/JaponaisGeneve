@@ -1,16 +1,9 @@
 :root {
     --white: #fcfcfc;
-    --old-red: #FF7373;
-    /* --mid-red: #FF1D1D; */
-    --mid-red: #c90317;
     --beige: #f2e5d9;
     --black: #0e0e0e;
-    /* --red: rgba(160, 48, 58, 1); */
-    --light-red: #f5172d;
     --light-red: #f7053e;
     --red: #d50032;
-    --bloodred: #A10211;
-    --blue: #0093FE;
     --hook-title-font-size: 36px;
     --content-font-size : 18px;
     --maintitle-font-size : 30px;
@@ -19,7 +12,6 @@
     --nav-maintitle-letter-spacing: 0px;
     --nav-subtitle-font-size : 10px;
     --bottom-distance : 0px;
-    /* --border-radius-article: 15px; */
   }
 
 /* lexend-deca-200 - latin */
@@ -241,7 +233,7 @@ html, body, h1,h2,h3,h4,p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
+    width: 95px;
 
     background-image: linear-gradient(var(--light-red), var(--light-red));
     background-repeat: no-repeat;
@@ -491,21 +483,11 @@ PARCOURS
 .article-subtitle {
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
+    font-weight: 400;
     font-size: var(--subtitle-font-size);
     color: var(--black);
 }
-
-/* .article-subtitle-hook{
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: var(--subtitle-font-size);
-    color: var(--black);
-} */
-
 
 .acceuil-maintitle{
     color: var(--black);
@@ -574,11 +556,11 @@ PARCOURS
         }
 
     .article-content {
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: var(--content-font-size);
-    text-decoration: none;
+        font-family: "Urbanist", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: var(--content-font-size);
+        text-decoration: none;
     }
 
     .hook-title-mobile{
@@ -637,14 +619,10 @@ PARCOURS
     }
 
     .title-infobulle{
-        /* border: 1.5px solid var(--white);
-        border-radius: 25px; */
-        /* padding: 10px; */
         color: var(--white);
         background-color: var(--red);
         width: 250px;
-        text-align: left;
-        
+        text-align: left;   
     }
 
     .added-title{
@@ -717,7 +695,7 @@ PARCOURS
         order: 1;
     }
 
-    #Acceuil {
+    #acceuil {
         background-image: url("img/jap3-7954960.webp");;
         background-position: top;
         height: auto;   
@@ -1122,9 +1100,6 @@ PARCOURS
     }
 
     .title-infobulle{
-        /* border: 1.5px solid var(--white);
-        border-radius: 25px; */
-        /* padding: 10px; */
         color: var(--white);
         background-color: var(--red);
         width: 250px;
@@ -1203,7 +1178,7 @@ PARCOURS
         order: 1;
     }
 
-    #Acceuil {
+    #acceuil {
         background-image: url("img/jap3-7954960.webp");;
         background-position: top;
         height: auto;   
@@ -1597,10 +1572,10 @@ PARCOURS
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 25px;
+        gap: 5px;
     }
 
-    #Acceuil {
+    #acceuil {
         position: relative;
         height: 100vh;
         min-height: 870px;
@@ -1630,12 +1605,9 @@ PARCOURS
         margin-bottom: 15px;
         width: 250px;
         text-align: center;
-        /* margin-top: 15px; */
     }
+
     .title-infobulle{
-        /* border: 1.5px solid var(--white);
-        border-radius: 25px; */
-        /* padding: 10px; */
         color: var(--white);
         background-color: var(--red);
         width: 250px;
@@ -1714,8 +1686,7 @@ PARCOURS
 
     .landing-footer{
         width: 100%;
-        /* background-image: url("img/photo-stone-texture-pattern.jpg"); */
-        background-color: var(--mid-red);
+        background-color: var(--red);
         height: 5%;
         position: absolute;
         background-size: cover;
@@ -1792,7 +1763,7 @@ PARCOURS
 
     .parcours-article {
         margin-bottom: 50px;
-        width: 60%;
+        width: 50%;
         min-width: 980px;
     }
 
@@ -1912,10 +1883,8 @@ PARCOURS
         min-width: 720px;
     }
 
-
     .etiquette-parcours{
         display: flex;
-        /* background-image: url("img/white-paper-texture.jpg"); */
         flex-direction: column;
         align-items: center;
         gap: 15px;
