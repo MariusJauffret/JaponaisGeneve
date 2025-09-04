@@ -1,3 +1,4 @@
 User-agent: *
-Disallow:
-Sitemap: https://mariusjauffret.github.io/JaponaisGeneve/
+Allow: /
+
+Sitemap: https://japonaisgeneve.ch/sitemap.xml
