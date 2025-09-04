@@ -1,63 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cours de japonais à Genève, à domicile ou en ligne. Préparation d'un voyage au Japon ou d'un examen (JLTP). Apprentissage de la langue et sa culture.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Cours de japonais à Genève</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <title>Cours de japonais à Genève | JaponaisGeneve.ch</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://mariusjauffret.github.io/JaponaisGeneve/">
 
-    <style>
-        /* table {
-            border-collapse: collapse;
-            width: 100%;
-            max-width: 800px;
-            margin: 0 auto;
-            font-family: Arial, sans-serif;
-            color: white;
-        }
-        
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        th {
-            font-weight: bold;
-        } */
-        
-        /* tr:hover {
-            background-color: #f5f5f5;
-        } */
-        
-        /* You can customize these styles as needed */
-        /* Uncomment and modify these styles if you want:
 
-        .highlight {
-            background-color: #ffffcc;
-        }
-        
-        @media (max-width: 600px) {
-            table {
-                font-size: 14px;
-            }
-            th, td {
-                padding: 8px;
-            }
-        }
-        */
-    </style>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type"        content="website">
+    <meta property="og:locale"      content="fr_CH"> <!-- Swiss-French -->
+    <meta property="og:url"         content="https://mariusjauffret.github.io/JaponaisGeneve/">
+    <meta property="og:title"       content="Cours de japonais à Genève, à domicile ou en ligne">
+    <meta property="og:description" content="Préparation d'un voyage au Japon ou d'un examen (JLTP). Apprentissage de la langue et sa culture.">
+    <meta property="og:image"       content="https://japonaisgeneve.ch/img/mikjap1.jpg">
+    <meta property="og:site_name"   content="JaponaisGeneve.ch">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:title"       content="Cours de japonais à Genève, à domicile ou en ligne">
+    <meta name="twitter:description" content="Préparation d'un voyage au Japon ou d'un examen (JLTP). Apprentissage de la langue et sa culture.">
+    <meta name="twitter:image"       content="https://japonaisgeneve.ch/img/mikjap1.jpg">
 </head>
 <body>
 
     <!-- mobile menu -->
     <div class="mobile-nav-toggle">
-        <span class="current-section-selector">></span>
-        <span id="current-section-id">None</span>
+        <!-- <span class="current-section-selector">></span> -->
+        <img id="current-section-icon" src="img/icons/arrow-circle-right-svgrepo-com.svg"> <span id="current-section-id">Acceuil  ホーム</span>
         <div class="hamburger">
             <span></span>
             <span></span>
@@ -66,10 +46,10 @@
     </div>
 
     <nav class="desktop-nav">
-        <a href="#landingpage" class="landingpage nav-link active">
+        <a href="#Acceuil" class="Acceuil nav-link active">
             <div class="nav-item">
                 <h3 class="nav-item-main-title">Home</h3>
-                <h3 class="nav-item-sub-title">家</h3>
+                <h3 class="nav-item-sub-title">ホーム</h3>
 
             </div>
         </a>
@@ -77,28 +57,21 @@
         <a href="#cours" class="cours nav-link">
             <div class="nav-item">
                 <h3 class="nav-item-main-title">Cours</h3>
-                <h3 class="nav-item-sub-title">レッスン</h3>
+                <h3 class="nav-item-sub-title">コース</h3>
             </div>
         </a>
 
         <a href="#tarifs" class="tarifs nav-link">
             <div class="nav-item">
                 <h3 class="nav-item-main-title">Tarifs</h3>
-                <h3 class="nav-item-sub-title">価格</h3>
-            </div>
-        </a>
-
-        <a href="#parcours" class="parcours nav-link">
-            <div class="nav-item">
-                <h3 class="nav-item-main-title">Parcours</h3>
-                <h3 class="nav-item-sub-title">きゃりあ</h3>
+                <h3 class="nav-item-sub-title">コース料金</h3>
             </div>
         </a>
         
         <a href="#partenaires" class="partenaires nav-link">
             <div class="nav-item">
                 <h3 class="nav-item-main-title">Partenaires</h3>
-                <h3 class="nav-item-sub-title">レビュー</h3>
+                <h3 class="nav-item-sub-title">パートナー</h3>
             </div>
         </a>
 
@@ -109,10 +82,17 @@
             </div>
         </a>
 
+        <a href="#parcours" class="parcours nav-link">
+            <div class="nav-item">
+                <h3 class="nav-item-main-title">À propos</h3>
+                <h3 class="nav-item-sub-title">私について</h3>
+            </div>
+        </a>
+
         <a href="#contact" class="contact nav-link">
             <div class="nav-item">
                 <h3 class="nav-item-main-title">Contact</h3>
-                <h3 class="nav-item-sub-title">接触</h3>
+                <h3 class="nav-item-sub-title">お問い合わせ</h3>
             </div>
         </a>
     </nav>
@@ -120,31 +100,31 @@
     <!-- Add this mobile navigation menu after your existing nav -->
     <nav class="mobile-nav">
         <div class="mobile-nav-container">
-            <a href="#landingpage" class="landingpage nav-link mobile-nav-link">
+            <a href="#Acceuil" class="Acceuil nav-link mobile-nav-link">
                 <div class="nav-item">
                     <h3 class="nav-item-main-title">Home</h3>
-                    <h3 class="nav-item-sub-title">家</h3>
+                    <h3 class="nav-item-sub-title">ホーム</h3>
                 </div>
             </a>
 
             <a href="#cours" class="cours nav-link mobile-nav-link">
                 <div class="nav-item">
                     <h3 class="nav-item-main-title">Cours</h3>
-                    <h3 class="nav-item-sub-title">レッスン</h3>
+                    <h3 class="nav-item-sub-title">コース</h3>
                 </div>
             </a>
 
             <a href="#tarifs" class="tarifs nav-link mobile-nav-link">
                 <div class="nav-item">
                     <h3 class="nav-item-main-title">Tarifs</h3>
-                    <h3 class="nav-item-sub-title">価格</h3>
+                    <h3 class="nav-item-sub-title">コース料金</h3>
                 </div>
             </a>
             
             <a href="#partenaires" class="partenaires nav-link mobile-nav-link">
                 <div class="nav-item">
                     <h3 class="nav-item-main-title">Partenaires</h3>
-                    <h3 class="nav-item-sub-title">きゃりあ</h3>
+                    <h3 class="nav-item-sub-title">パートナー</h3>
                 </div>
             </a>
 
@@ -157,336 +137,315 @@
 
             <a href="#parcours" class="parcours nav-link mobile-nav-link">
                 <div class="nav-item">
-                    <h3 class="nav-item-main-title">Parcours</h3>
-                    <h3 class="nav-item-sub-title">きゃりあ</h3>
+                    <h3 class="nav-item-main-title">À propos</h3>
+                    <h3 class="nav-item-sub-title">私について</h3>
                 </div>
             </a>
 
             <a href="#contact" class="contact nav-link mobile-nav-link">
                 <div class="nav-item">
                     <h3 class="nav-item-main-title">Contact</h3>
-                    <h3 class="nav-item-sub-title">接触</h3>
+                    <h3 class="nav-item-sub-title">お問い合わせ</h3>
                 </div>
             </a>
         </div>
     </nav>
 
     <main>
-        <section id="landingpage" class="scene">
+        <section id="Acceuil" class="scene">
             <div class="landingpage-bg">
             </div>
             <article class="article hook-article">
                 <div class="article-top">
-                    <div class="etiquette">
+                    <div class="etiquette hook-item1">
                         <img src="img/10914112.webp" alt="Italian Trulli" class="article-picture">
-                        <span class="article-content">Mickael Pellet</span>
+                        <span class="article-subtitle">Mickael Pellet</span>
                         <div class="etiquette-info">
-                            <div class="etiquette-info-left">
+                            <div class="etiquette-info-left" style="height: 100%;justify-content: space-evenly;">
                                 <img src="img/icons/certificate-check-svgrepo-com.svg" alt="Italian Trulli">
-                                <img src="img/icons/money-cash-svgrepo-com.svg" alt="Italian Trulli">
-                                <img src="img/icons/language-svgrepo-com (1).svg" alt="Italian Trulli">
+                                <!-- <img src="img/icons/money-check-dollar-svgrepo-com.svg" alt="Italian Trulli"> -->
+                                <img src="img/icons/letter-chinese-a-svgrepo-com.svg" alt="Italian Trulli">
+                                <img src="img/icons/mail-svgrepo-com.svg" alt="Italian Trulli">
+                                <img src="img/icons/mobile-alt-2-svgrepo-com.svg" alt="Italian Trulli">
                             </div>
-                            <div class="etiquette-info-left">
-                                <span class="article-content bold">Certification</span>
-                                <span class="article-content bold">Tarifs</span>
-                                <span class="article-content bold">Langue</span>
-                            </div>
+                            <!-- <div class="etiquette-info-left">
+                                <span class="article-content">Certification</span>
+                                <span class="article-content">Tarifs</span>
+                                <span class="article-content">Langue</span>
+                                <span class="article-content">Email</span>
+                                <span class="article-content" style="height: 100%; line-height: 28px;">Telephone</span>
+                            </div> -->
                             <div class="etiquette-info-left">
                                 <span class="article-content">JLPT N2</span>
-                                <span class="article-content">40</span>
-                                <span class="article-content">Français</span>
-                            </div>
-                        </div>
-                        <div class="etiquette-info-mobile-addition">
-                            <div class="etiquette-info-left">
-                                <img src="img/icons/email-1-svgrepo-com.svg" alt="Italian Trulli">
-                                <img src="img/icons/phone-svgrepo-com.svg" alt="Italian Trulli">
-                            </div>
-                            <div class="etiquette-info-left">
-                                <span class="article-content bold">mick.pellet@gmail.com</span>
-                                <span class="article-content bold" style="height: 100%; line-height: 28px;">+41 79 431 75 42</span>
+                                <!-- <span class="article-content">40 à 50 CHF.- / h</span> -->
+                                <span class="article-content">FR | ANG</span>
+                                <span class="article-content">mick.pellet@gmail.com</span>
+                                <span class="article-content">+41 79 431 75 42</span>
                             </div>
                         </div>
                     </div>
-                    <div class="article-headers">
-                        <h1 class="article-maintitle hook">Cours de japonais à Genève, à domicile ou en ligne</h1>
-                        <h2 class="article-subtitle">ジュネーブで今すぐ日本語プライベートレッスンを始めましょう！</h2>
-                        <span class="article-date" class="date">12/08/2024</span>
-                        <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
+                    <div class="article-headers hook-item2">
+                        <h1 class="article-maintitle acceuil-maintitle hook">Cours de japonais à Genève — en groupe ou en privé, à domicile ou en ligne.</h1>
+                        <a href="#contact" style="text-decoration: none;">
+                            <h1 class="article-subtitle title-button">Premier cours d’essai gratuit <img src="img/icons/external-link-svgrepo-com.svg" style="width: 12px;"></h1>
+                        </a>
+                        <div class="etiquette etiquette-mobile hook-mobile">
+                            <img src="img/10914112.webp" alt="Italian Trulli" class="article-picture">
+                             <span class="article-subtitle">Mickael Pellet</span>
+                            <div class="etiquette-info">
+                                <div class="etiquette-info-left" style="height: 100%;justify-content: space-evenly;">
+                                    <img src="img/icons/certificate-check-svgrepo-com.svg" alt="Italian Trulli">
+                                    <!-- <img src="img/icons/money-check-dollar-svgrepo-com.svg" alt="Italian Trulli"> -->
+                                    <img src="img/icons/letter-chinese-a-svgrepo-com.svg" alt="Italian Trulli">
+                                    <img src="img/icons/mail-svgrepo-com.svg" alt="Italian Trulli">
+                                    <img src="img/icons/mobile-alt-2-svgrepo-com.svg" alt="Italian Trulli">
+                                </div>
+                                <!-- <div class="etiquette-info-left">
+                                    <span class="article-content">Certification</span>
+                                    <span class="article-content">Tarifs</span>
+                                    <span class="article-content">Langue</span>
+                                    <span class="article-content">Email</span>
+                                    <span class="article-content" style="height: 100%; line-height: 28px;">Telephone</span>
+                                </div> -->
+                                <div class="etiquette-info-left">
+                                    <span class="article-content">JLPT N2</span>
+                                    <!-- <span class="article-content">40 à 50 CHF.- / h</span> -->
+                                    <span class="article-content">FR | ANG</span>
+                                    <span class="article-content">mick.pellet@gmail.com</span>
+                                    <span class="article-content">+41 79 431 75 42</span>
+                                </div>
+                        </div>
+                    </div>
+                        <!-- <h2 class="article-subtitle">ジュネーブの日本語コース - グループまたはプライベート、自宅またはオンラインで。</h2> -->
+                        <span class="article-date" class="date">03/06/2025</span>
+                        <p class="article-content hook-content">
+                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
+                        </p>
+                        <p class="article-content hook-content">
+                            Si vous cherchez un professeur de japonais à Genève ou en ligne, vous êtes au bon endroit !
+                        </p>
+                        <!-- <p class="article-content hook-content">
                             Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
-                            
-                            Professeur de japonais depuis 3 ans et ayant vécu à Tokyo pendant plus de 2 ans, la langue japonaise et sa culture sont mes passions. Mon but est de partager ça avec un maximum de gens tout en les accompagnant dans cette fantastique aventure qu'est l'apprentissage du japonais
-                            </p>
+                        </p> -->
                     </div>            
                 </div>
             </article>
             <a href="#contact" class="button-contact">
-                <div class="button">
-                    <h3>Prendre rendez-vous</h3>
+                <div>
+                    <h1 class="button">Prendre rendez-vous</h>
                 </div>
             </a>
             <div class="landing-footer">
-                <p class="article-content">Email: mick.pellet@gmail.com - Téléphone: +41 79 431 75 42 - Tarifs: 40.- CHF/H Flexible</p>
+                <p class="article-content">Email: mick.pellet@gmail.com - Téléphone: +41 79 431 75 42</p>
             </div>
         </section>
         <section id="cours" class="scene">
-            <div class="cours-container">
+            <div class="cours-container">                
+                <div class="cours-wrapper-left">
+                    <article class="article article-cours cours-item4">
+                        <div class="article-headers">
+                            <h1 class="article-maintitle cours-maintitle">Objectifs</h1>
+                            <h1 class="article-subtitle cours-subtitle">目的</h1>
+                            <p class="article-content">
+                                Que ce soit en vue d’un futur voyage au Japon, d’un examen de japonais (JLPT), que vous souhaitiez lire vos mangas préférés en version originale ou regarder des animés sans sous-titres, vous êtes au bon endroit !
+                            </p>
+                        </div>
+                    </article>
 
-                </article> 
-                <article class="article article-cours cours-item2">
+                    <article class="article article-cours cours-item5">
+                        <div class="article-headers">
+                            <h1 class="article-maintitle cours-maintitle">Lieux</h1>
+                            <h1 class="article-subtitle cours-subtitle">どこ ?</h1>
+                            <p class="article-content">
+                                Plusieurs possibilités: chez vous, chez moi, dans l’une des arcades partenaires à Genève ou même en ligne.
+                            </p>
+                        </div>
+                    </article>                
+                </div>                
+                                <article class="article article-cours cours-item2">
                     <div class="article-headers">
-                        <h1 class="article-maintitle cours-maintitle">Contenu</h1>
-                        <h1 class="article-subtitle cours-subtitle">コンテンツ</h1>
+                        <h1 class="article-maintitle cours-maintitle">Contenu et méthodologie</h1>
+                        <h1 class="article-subtitle cours-subtitle">教材</h1>
                         
                         <p class="article-content">
-                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                            J'utilise la méthode Minna no Nihongo, une référence reconnue et largement utilisée pour l'apprentissage du japonais.
                         </p>
-                    </div>
-                </article>
-                <article class="article article-cours cours-item3">
-                    <div class="article-headers">
-                        <h1 class="article-maintitle cours-maintitle">Méthodologie</h1>
-                        <h1 class="article-subtitle cours-subtitle">方法論</h1>
-                        
                         <p class="article-content">
-                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                            Chaque cours dure 1 heure et est divisé en plusieurs parties complémentaires pour favoriser un apprentissage complet de la langue :
                         </p>
-                    </div>
-                </article>
-                <article class="article article-cours cours-item4">
-                    <div class="article-headers">
-                        <h1 class="article-maintitle cours-maintitle">Objectifs</h1>
-                        <h1 class="article-subtitle cours-subtitle">目標</h1>
-                        <p class="article-content">
-                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
-                        </p>
-                    </div>
-                </article>
-                <article class="article article-cours cours-item5">
-                    <div class="article-headers">
-                        <h1 class="article-maintitle cours-maintitle">Lieux</h1>
-                        <h1 class="article-subtitle cours-subtitle">場所</h1>
-                        <p class="article-content">
-                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
-                        </p>
-                    </div>
-                </article>
+                        <style>
+                        /* -----  FLEXBOX “TABLE”  ----- */
+                        .lesson-points{
+                        padding-top: 15px;
+                        display:flex;               /* outer grid */
+                        flex-direction:column;      /* 5 rows */
+                        gap:1rem;                   /* space between rows */
+                        max-width:700px;            /* optional: limit total width */
+                        margin:0 auto;              /* center on page */
+                        font-family:system-ui, sans-serif;
+                        }
 
+                        .point-row{
+                        display:flex;               /* 2 columns */
+                        align-items:flex-start;     /* icons and text align at the top */
+                        }
+
+                        .icon{
+                        
+                        margin-inline-end:12px;     /* gap between icon & text */
+                        }
+
+                        .icon img{
+                        width:28px;                 /* icon fills its cell */
+                        height:auto;
+                        }
+
+                        .text{
+                        flex:1;                     /* text column grows to fill */
+                        line-height:1.4;
+                        }
+                        </style>
+
+                        <div class="lesson-points">
+
+                            <div class="point-row">
+                                <div class="icon">
+                                    <img src="img/icons/book-user-svgrepo-com.svg" alt="Lecture icon">
+                                </div>
+                                <div class="article-content">
+                                    Lecture: entraînement à la lecture des hiragana, katakana et kanji.
+                                </div>
+                            </div>
+
+                            <div class="point-row">
+                                <div class="icon">
+                                <img src="img/icons/money-check-pen-svgrepo-com.svg" alt="Écriture icon">
+                                </div>
+                                <div class="article-content">
+                                    Écriture: exercices pour améliorer la maîtrise des caractères japonais.
+                                </div>
+                            </div>
+
+                            <div class="point-row">
+                                <div class="icon">
+                                <img src="img/icons/cassette-tape-svgrepo-com.svg" alt="Compréhension orale icon">
+                                </div>
+                                <div class="article-content">
+                                Compréhension orale: écoute d'extraits audio pour s'habituer aux sons et à la structure de la langue.
+                                </div>
+                            </div>
+
+                            <div class="point-row">
+                                <div class="icon">
+                                <img src="img/icons/letter-japanese-a-svgrepo-com-lightblack.svg" alt="Vocabulaire icon">
+                                </div>
+                                <div class="article-content">
+                                Vocabulaire: acquisition de mots et expressions utiles dans des contextes variés.
+                                </div>
+                            </div>
+
+                            <div class="point-row">
+                                <div class="icon">
+                                <img src="img/icons/spell-check-svgrepo-com.svg" alt="Grammaire icon">
+                                </div>
+                                <div class="article-content">
+                                Grammaire: explication et mise en pratique des points grammaticaux abordés dans la leçon.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
         <section id="tarifs" class="scene">
             <div class="tarifs-container">
-                <!-- <article class="article std-article article-cours cours-item1">
-                    <div class="article-headers">
-                        <h1 class="article-maintitle cours-maintitle">Cours</h1>
-                        <h1 class="article-subtitle cours-subtitle">レッスン</h1>
-                    </div>
-                    <p class="article-content">
-                        Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
-                    </p>
-                    
-                    <div class="article-tags">
-                        <div class="article-tag"><span>Destiné à tous niveaux</span></div>
-                        <div class="article-tag"><span>Cours en Français</span></div>
-                    </div>
-                </article>--> 
                 <article class="article article-tarifs">
                     <div class="article-headers-dark">
-                        <h1 class="article-maintitle tarifs-maintitle">Tarifs & Recommandations</h1>
-                        <h1 class="article-subtitle cours-subtitle">コンテンツ</h1>
-                        
+                        <h1 class="article-maintitle tarifs-maintitle">Tarifs*</h1>
+                        <h1 class="article-subtitle tarifs-subtitle">コース料金</h1>
+                        <ul class="article-content bullets">
+                            <li>Cours individuel: CHF 50.-/heure</li>
+                            <li>Cours individuel en ligne: CHF 40.-/heure</li>
+                            <li>Cours en groupe: à définir selon le nombre d’élèves et le lieu du cours</li>
+                        </ul>
                         <p class="article-content">
-                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
+                            *Le tarif pour les cours à domicile peut varier selon la distance à parcourir ; n’hésitez pas à me contacter pour plus d’information !
                         </p>
                     </div>
-                    <!--
-                    <div class="article-tags">
-                        <div class="article-tag-secondary"><span>Expression orale</span></div>
-                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
-                    </div>-->
-                </article>
-                <!-- <div>
-                    <table
-                        style='
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        position: relative;
-                        font-family: "Urbanist", sans-serif;
-                        font-optical-sizing: auto;
-                        font-weight: 300;
-                        font-style: normal;
-                        '
-                    >
-                        <thead>
-                            <tr>
-                                <th>Tarif</th>
-                                <th>Tarifs packs</th>
-                                <th>Webcam</th>
-                                <th>Déplacements</th>
-                                <th>Cours offerts</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>40CHF</td>
-                                <td>
-                                    5 h: 200CHF<br>
-                                    10 h: 400CHF
-                                </td>
-                                <td>35CHF/h</td>
-                                <td>+ 5CHF</td>
-                                <td>1h</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div> -->
-                <article class="article article-tarifs">
-                    <div class="article-headers-dark">
-                        <h1 class="article-maintitle tarifs-maintitle">Horaires</h1>
-                        <h1 class="article-subtitle cours-subtitle">方法論</h1>
-                        
-                        <p class="article-content">
-                            Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
-                        </p>
-                    </div>
-                    <!--
-                    <div class="article-tags">
-                        <div class="article-tag-secondary"><span>Expression orale</span></div>
-                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
-                    </div>-->
                 </article>
             </div>
         </section>
         <section id="partenaires" class="scene">
             <article class="article partenaires-article">
                 <div class="article-top">
-                    <div class="article-headers">
+                    <div class="article-headers-partenaires">
                         <div class="partenaires-banner igikai"></div>
-                        <h1 class="article-maintitle hook">IKIGAI Manga Shop</h1>
-                        <h2 class="article-subtitle">ジュネーブで今すぐ日本語プライベートレッスンを始めましょう！</h2>
-                        <span class="article-date" class="date">12/08/2024</span>
-                        <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
-                            Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
-                            
-                            Professeur de japonais depuis 3 ans et ayant vécu à Tokyo pendant plus de 2 ans, la langue japonaise et sa culture sont mes passions. Mon but est de partager ça avec un maximum de gens tout en les accompagnant dans cette fantastique aventure qu'est l'apprentissage du japonais
-                            </p>
+                        <a href="https://ikigai-manga.shop/" style="text-decoration: none;"><h1 class="article-maintitle partenaires-maintitle">IKIGAI Manga</br>Shop</br><img src="img/icons/external-link-svgrepo-com-black.svg" style="width: 20px;"></h1></a>
+                        <p class="article-content">Je propose des cours d’initiation au japonais en groupe chez Ikigai Manga Shop à Genève!
+                            Depuis quelque temps, j’ai le plaisir de transmettre ma passion pour la langue et la culture japonaises dans ce lieu chaleureux, entouré de mangas, de figurines, et de tout ce qui fait vibrer les amoureux du Japon.
+                        </p>
                     </div>
-                    <div class="article-headers">
+                    <div class="article-headers-partenaires">
                         <div class="partenaires-banner arcade"></div>
-                        <h1 class="article-maintitle hook">L'arcade des enfants terribles</h1>
-                        <h2 class="article-subtitle">ジュネーブで今すぐ日本語プライベートレッスンを始めましょう！</h2>
-                        <span class="article-date" class="date">12/08/2024</span>
-                        <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
-                            Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
-                            
-                            Professeur de japonais depuis 3 ans et ayant vécu à Tokyo pendant plus de 2 ans, la langue japonaise et sa culture sont mes passions. Mon but est de partager ça avec un maximum de gens tout en les accompagnant dans cette fantastique aventure qu'est l'apprentissage du japonais
-                            </p>
-                    </div>
-                    <div class="article-headers">
-                        <div class="partenaires-banner superprof"></div>
-                        <h1 class="article-maintitle hook">Superprof</h1>
-                        <h2 class="article-subtitle">ジュネーブで今すぐ日本語プライベートレッスンを始めましょう！</h2>
-                        <span class="article-date" class="date">12/08/2024</span>
-                        <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
-                            Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
-                            
-                            Professeur de japonais depuis 3 ans et ayant vécu à Tokyo pendant plus de 2 ans, la langue japonaise et sa culture sont mes passions. Mon but est de partager ça avec un maximum de gens tout en les accompagnant dans cette fantastique aventure qu'est l'apprentissage du japonais
-                            </p>
-                    </div>            
+                        <a href="https://lesenfantsterribles.ch/" style="text-decoration: none;"><h1 class="article-maintitle partenaires-maintitle">L'arcade des enfants terribles</br><img src="img/icons/external-link-svgrepo-com-black.svg" style="width: 20px;"></h1></a>
+                        <p class="article-content">Je travaille en collaboration avec l’Arcade des Enfants Terribles, où je propose des cours de japonais destinés aux enfants, mais aussi aux adultes de tous âges. Ces cours ont lieu dans un cadre calme et agréable, idéalement situé à Genève (Chêne-Bourg), offrant un environnement propice à l’apprentissage.
+                        </p>
+                    </div>          
                 </div>
             </article>
         </section>
         <section id="avis" class="scene">
+            <h1 class="article-maintitle added-title">Avis レビュー</h1>
             <div class="avis-container">
-                <!-- <article class="article std-article article-cours cours-item1">
-                    <div class="article-headers">
-                        <h1 class="article-maintitle cours-maintitle">Cours</h1>
-                        <h1 class="article-subtitle cours-subtitle">レッスン</h1>
-                    </div>
-                    <p class="article-content">
-                        Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
-                    </p>
-                    
-                    <div class="article-tags">
-                        <div class="article-tag"><span>Destiné à tous niveaux</span></div>
-                        <div class="article-tag"><span>Cours en Français</span></div>
-                    </div>
-                </article>--> 
-                <article class="article article-tarifs">
+                <article class="article article-avis">
                     <div class="article-headers-dark">
                         <h1 class="article-maintitle tarifs-maintitle">Sabina</h1>
-                        <h1 class="article-subtitle tarifs-subtitle">5<span style="color: rgb(255, 242, 66);">★</span> Superprof</h1>
+                        <h1 class="article-subtitle tarifs-subtitle">5 <img src="img/icons/star-sharp-svgrepo-com.svg" style="width: 12px;"> Superprof <a href="https://www.superprof.ch/professeur-japonais-appris-langue-tokyo-passe-jlpt-offre-premier-cours.html" target="_blank" rel="noopener noreferrer"><img src="img/icons/external-link-svgrepo-com.svg" style="width: 12px;"></a></h1>
                         
                         <p class="article-content">
                             Parfait ! Mickael est un excellent prof, mon fils a beaucoup progressé et reste très motivé à l’idée de continuer. Il est patient, intéressant et s’adapte au niveau de l’élève. Nous sommes entièrement satisfait ! Merci à lui
                         </p>
                     </div>
-                    <!--
-                    <div class="article-tags">
-                        <div class="article-tag-secondary"><span>Expression orale</span></div>
-                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
-                    </div>-->
                 </article>
-                <article class="article article-tarifs">
+                <article class="article article-avis">
                     <div class="article-headers-dark">
                         <h1 class="article-maintitle tarifs-maintitle">Laeticia</h1>
-                        <h1 class="article-subtitle tarifs-subtitle"><img src="img/icons/hand-thumbs-up-fill-svgrepo-com.svg" style="width: 20px;"> Recommandé Superprof</h1>
+                        <h1 class="article-subtitle tarifs-subtitle">
+                            Recommandé Superprof <a href="https://www.superprof.ch/professeur-japonais-appris-langue-tokyo-passe-jlpt-offre-premier-cours.html" target="_blank" rel="noopener noreferrer"><img src="img/icons/external-link-svgrepo-com.svg" style="width: 12px;"></a>
+                        </h1>
                         
                         <p class="article-content">
                             Mickael est un très bon prof de japonais, passionné par le Japon et sa culture! Je vous le recommande à 100% que vous débutiez ou non!
                         </p>
                     </div>
-                    <!--
-                    <div class="article-tags">
-                        <div class="article-tag-secondary"><span>Expression orale</span></div>
-                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
-                    </div>-->
                 </article>
-                <article class="article article-tarifs">
+                <article class="article article-avis">
                     <div class="article-headers-dark">
                         <h1 class="article-maintitle tarifs-maintitle">Lionel</h1>
-                        <h1 class="article-subtitle tarifs-subtitle"><img src="img/icons/hand-thumbs-up-fill-svgrepo-com.svg" style="width: 20px;"> Recommandé Superprof</h1>
+                        <h1 class="article-subtitle tarifs-subtitle">
+                            Recommandé Superprof <a href="https://www.superprof.ch/professeur-japonais-appris-langue-tokyo-passe-jlpt-offre-premier-cours.html" target="_blank" rel="noopener noreferrer"><img src="img/icons/external-link-svgrepo-com.svg" style="width: 12px;"></a>
+                        </h1>
                         
                         <p class="article-content">
                             J'avais commencé à apprendre le japonais par simple curiosité, mais grâce à Mickael ça me donne vraiment envie de voyager jusqu'au Japon! Super prof vraiment à l'écoute et qui sait s'adapter aux élèves!
                         </p>
                     </div>
-                    <!--
-                    <div class="article-tags">
-                        <div class="article-tag-secondary"><span>Expression orale</span></div>
-                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
-                    </div>-->
+
                 </article>
-                <article class="article article-tarifs">
+                <article class="article article-avis">
                     <div class="article-headers-dark">
                         <h1 class="article-maintitle tarifs-maintitle">Michèle</h1>
-                        <h1 class="article-subtitle tarifs-subtitle"><img src="img/icons/hand-thumbs-up-fill-svgrepo-com.svg" style="width: 20px;"> Recommandé Superprof</h1>
+                        <h1 class="article-subtitle tarifs-subtitle">
+                            Recommandé Superprof <a href="https://www.superprof.ch/professeur-japonais-appris-langue-tokyo-passe-jlpt-offre-premier-cours.html" target="_blank" rel="noopener noreferrer"><img src="img/icons/external-link-svgrepo-com.svg" style="width: 12px;"></a>
+                        </h1>
                         
                         <p class="article-content">
                             Mickael est un jeune homme passionnè qui aime apprendre aux autres et transmette son savoir !! Merci
                         </p>
                         </div>
-                    <!--
-                    <div class="article-tags">
-                        <div class="article-tag-secondary"><span>Expression orale</span></div>
-                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
-                    </div>-->
                 </article>
-                <!-- <article class="article article-tarifs">
-                    <div class="article-headers-dark">
-                        <h1 class="article-maintitle tarifs-maintitle">Layla</h1>
-                        <h1 class="article-subtitle tarifs-subtitle">Recommandé sur Superprof</h1>
-                        
-                        <p class="article-content">
-                            Mickael est un prof sérieux et sympathique! On sent qu'il est passionné par le japonais et le Japon de manière générale. Je le recommande vivement!
-                        </p>
-                        </div>
-                    <div class="article-tags">
-                        <div class="article-tag-secondary"><span>Expression orale</span></div>
-                        <div class="article-tag-secondary"><span>Expression écrite</span></div>
-                    </div>
-                </article> -->
+
             </div>
         </section>
         <section id="parcours" class="scene">
@@ -494,41 +453,114 @@
                 <div class="article-top">
                     <div class="etiquette-parcours">
                         <img src="img/mikjap1.jpg" alt="Italian Trulli" class="parcours-picture">
-                        <!-- <span class="article-content">Mickael Pellet</span>
-                        <div class="etiquette-info">
-                            <div class="etiquette-info-left">
-                                <img src="img/icons/certificate-check-svgrepo-com.svg" alt="Italian Trulli">
-                                <img src="img/icons/money-cash-svgrepo-com.svg" alt="Italian Trulli">
-                                <img src="img/icons/language-svgrepo-com (1).svg" alt="Italian Trulli">
-                            </div>
-                            <div class="etiquette-info-left">
-                                <span class="article-content bold">Certification</span>
-                                <span class="article-content bold">Tarifs</span>
-                                <span class="article-content bold">Langue</span>
-                            </div>
-                            <div class="etiquette-info-left">
-                                <span class="article-content">JLPT N2</span>
-                                <span class="article-content">40</span>
-                                <span class="article-content">Français</span>
-                            </div>
-                        </div> -->
                     </div>
-                    <div class="article-headers article-only">
-                        <h1 class="article-maintitle hook">Mon parcours</h1>
-                        <h2 class="article-subtitle">ジュネーブで今すぐ日本語プライベートレッスンを始めましょう！</h2>
-                        <span class="article-date" class="date">12/08/2024</span>
-                        <p class="article-content hook-content urbanist-ft">Ayant étudié le japonais pendant 2 ans au Japon et 4 ans en autodidacte, mes méthodes d'apprentissage et donc d'enseignement sont très variées et je saurai m'adapter aux besoins de l'élève.
-                            Que ce soit pour un futur voyage au Japon, pour savoir lire des mangas en japonais ou encore regarder des animes en VO sans sous-titres, vous êtes au bon endroit !
-                            
-                            Professeur de japonais depuis 3 ans et ayant vécu à Tokyo pendant plus de 2 ans, la langue japonaise et sa culture sont mes passions. Mon but est de partager ça avec un maximum de gens tout en les accompagnant dans cette fantastique aventure qu'est l'apprentissage du japonais
-                            </p>
+                    <div class="article-headers-partenaires">
+                        <h1 class="article-maintitle parcours-maintitle">Mon parcours</h1>
+                        <p class="article-content">
+                            Passionné par la langue japonaise depuis plusieurs années, j’ai eu la chance de vivre deux ans à Tokyo, où j’ai pu me plonger pleinement dans la culture et le quotidien japonais — une expérience qui a enrichi ma compréhension de la langue et de sa finesse.
+                        </p>
+                        <p class="article-content">
+                            Ayant étudié le japonais pendant six ans, et étant devenu professeur il y a trois ans, j’accompagne des élèves de tous niveaux, avec des objectifs variés. Mes méthodes d’enseignement sont flexibles, ludiques et adaptées à chaque élève, selon son rythme et ses envies.
+                        </p>
+                        <p class="article-content">
+                            Mon but est simple : partager cette passion du japonais avec le plus grand nombre, et vous accompagner dans cette aventure unique qu’est l’apprentissage d’une langue aussi riche et fascinante !
+                        </p>
+                        <p class="article-content">
+                            « La langue japonaise n’est pas seulement un outil de communication — c’est une clé pour comprendre sa culture. »
+                        </p>
                     </div>            
                 </div>
             </article>
         </section>
-    </main>
+        <section id="contact" class="scene">
+            <article class="article contact-article">
+                <div class="article-top">
+                    <div class="article-headers-dark-row">
+                        <div style="flex-shrink: 0; display: flex; flex-direction: column; gap: 25px;">
+                            <h1 class="article-maintitle contact-maintitle">Me contacter</h1>
+                            <div class="etiquette-info-addition">
+                                <div class="etiquette-info-left">
+                                    <img src="img/icons/mail-01-svgrepo-com.svg" alt="Italian Trulli" >
+                                    <img src="img/icons/mobile-alt-2-svgrepo-com-white.svg" alt="Italian Trulli" >
+                                </div>
+                                <div class="etiquette-info-left">
+                                    <span class="article-contact urbanist-ft bold">mick.pellet@gmail.com</span>
+                                    <span class="article-contact urbanist-ft bold" style="height: 100%; line-height: 28px;">+41 79 431 75 42</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: 25px;">
+                            <h1 class="article-maintitle contact-maintitle">Prendre Rendez-vous</h1>
+                            <p class="article-contact urbanist-ft">Afin de reserver votre cours d'essai gratuit, il vous suffit de m’envoyer vos disponibilités ainsi que le lieu où vous aimeriez que ce premier rendez-vous ait lieu, et je vous répondrai au plus vite !
+                            </p>
+                        </div>
+                    </div>            
+                </div>
+            </article>
+            <div class="form-container">
+                    <h2>Contactez-moi ici</h2>
+                    
+                    <form action="https://formspree.io/f/mqabknzp" method="post">
+                        <input type="hidden" name="_language" value="fr">
+                        <div class="form-group">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" name="firstName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" name="lastName" required>
+                        </div>
 
+                        <div class="form-group">
+                            <label for="nom">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nom">N° de téléphone (optionnel)</label>
+                            <input type="text" id="telephone" name="phone">
+                        </div>                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea type="text" id="message" name="message" required></textarea>
+                        </div>
+                        <input type="text" name="_gotcha" style="display:none" />
+                        
+                        <div class="form-actions">
+                            <button type="submit">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+        </section>
+    </main>
+    <footer style="width: 100%; height: 50px;background-color: rgb(37, 37, 37);">
+
+    </footer>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LanguageSchool",
+        "name": "JaponaisGeneve.ch – Cours de japonais à Genève",
+        "url": "https://mariusjauffret.github.io/JaponaisGeneve/",
+        "image": ""https://japonaisgeneve.ch/img/mikjap1.jpg"",
+        "description": "Cours de japonais à Genève, à domicile ou en ligne. Préparation d'un voyage au Japon ou d'un examen (JLTP). Apprentissage de la langue et sa culture.",
+        "telephone": "+41-79-431-75-42",
+        "areaServed": "CH-GE",
+        "availableLanguage": ["ja", "fr", "eng"],
+        "priceRange": "CHF 40–50/h",
+    }
+    </script>
     <script>
+
+        let sectionNameDisplay = {
+            "Acceuil":"Acceuil  ホーム",
+            "cours":"Cours  コース",
+            "tarifs":"Tarifs  コース料金",
+            "partenaires":"Partenaires  パートナー",
+            "avis":"Avis  レビュ",
+            "parcours":"À propos  きゃりあ",
+            "contact":"Contact  お問い合わせ"
+        }
         const sections = document.querySelectorAll("section");
         const navLi = document.querySelectorAll(".nav-link");
         const currentSectionSpan = document.getElementById("current-section-id");
@@ -543,9 +575,8 @@
                 }
             });
 
-            currentSectionSpan.textContent = current || "None";
+            currentSectionSpan.textContent = sectionNameDisplay[current] || "None";
 
-            console.log(current);
 
             navLi.forEach((li) => {
                 li.classList.remove("active");
